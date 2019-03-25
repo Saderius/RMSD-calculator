@@ -1,0 +1,12 @@
+Fitness list for ligand file CHEMBL6310.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  2        45.06     -45.13       0.00       0.00       0.00       0.00       0.14       0.21    1.000
+  1        45.02     -45.13       0.00       0.00       0.00       0.09       0.11       0.21    0.000
+  3        44.73     -44.81       0.00       0.00       0.00       0.00       0.14       0.21    1.000
+
+
+Average Values:
+
+           44.94     -45.02       0.00       0.00       0.00       0.03       0.13       0.21    0.667
