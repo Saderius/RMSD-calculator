@@ -71,6 +71,6 @@ for key in origin:
     for key2 in soln:
         if key[5:key[5:].find('_')+5]==key2[10:key2[10:].find('_')+10]:
             print('Soln:', '\t', key2,'\t')
-            print('\t',round(porownanie(pliki[key],pliki[key2]),4))
+            print('\t','RMSD =',round(porownanie(pliki[key],pliki[key2]),4))
             
     print('\n')
