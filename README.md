@@ -22,9 +22,10 @@ brakuje to zrobiłeś coś źle. Zacznij od sprawdzenia rozszerzeń plików i st
 folderów. Jak nie będzie śmigać to zakomentuj 
 
 #outputuje wszelkie printu
+'''
 import sys
 sys.stdout = open('output.txt','wt')
-
+'''
 i szukaj problwmu na własną rękę. Stawiam na rozszerzenia lub problem z frazą.
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
