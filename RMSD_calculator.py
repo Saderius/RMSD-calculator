@@ -45,7 +45,9 @@ start_dir = os.getcwd()
 pattern   = "*.mol2"
 
 
-files=kk(start_dir) #to jest dodane tylko poza funkcjami i zakommentowaniem 2 linijek poniżej
+files_all=kk(start_dir) #to jest dodane tylko poza funkcjami i zakommentowaniem 2 linijek poniżej
+for dir in files_all:
+     files.append(dir)
 #for dir,_,_ in os.walk(start_dir):
 #    files.extend(glob(os.path.join(dir,pattern)))
 if True:
