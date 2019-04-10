@@ -1,7 +1,5 @@
 ## RMSD-calculator
-# Skrypt liczący wartości RMSD dla dowolnych ligandów po zadokowaniu do białek.
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA 
+# **Skrypt liczący wartości RMSD dla dowolnych ligandów po zadokowaniu do białek.**
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 Skrypt działa jedynie z plikami ligandów o rozszerzeniu mol2. W przypadku innych
 plików rozszerzeń sugerowane jest przepisanie ich na do formatu mol2. Operację
@@ -29,7 +27,7 @@ sys.stdout = open('output.txt','wt')
 i szukaj problwmu na własną rękę. Stawiam na rozszerzenia lub problem z frazą.
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
-All Star
+[**All Star**](https://www.youtube.com/watch?v=L_jWHffIx5E)
 Smash Mouth
 Somebody once told me the world is gonna roll me
 I ain't the sharpest tool in the shed
