@@ -6,6 +6,22 @@ from glob import glob
 import sys
 sys.stdout = open('output.txt','wt')
 
+def get_immediate_subdirectories(a_dir):
+     return [name for name in os.listdir(a_dir)
+             if os.path.isdir(os.path.join(a_dir, name))]
+
+
+def kk(dir,lis=[]):
+     b=get_immediate_subdirectories(dir)
+     if b:
+             for i in b:
+                     lis.append(i)
+             for l in b:
+                     lis=kk(dir+'/'+l,lis)
+     else:
+             return lis
+     return lis
+
 def porownanie(tab1,tab2):
     suma=[]
 
@@ -28,8 +44,10 @@ files = []
 start_dir = os.getcwd()
 pattern   = "*.mol2"
 
-for dir,_,_ in os.walk(start_dir):
-    files.extend(glob(os.path.join(dir,pattern)))
+
+files=kk(start_dir) #to jest dodane tylko poza funkcjami i zakommentowaniem 2 linijek poniżej
+#for dir,_,_ in os.walk(start_dir):
+#    files.extend(glob(os.path.join(dir,pattern)))
 if True:
     for file in range(len(files)):
         f = open(files[file],'r')
