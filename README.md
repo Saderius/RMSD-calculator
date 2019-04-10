@@ -19,7 +19,6 @@ mi się będzie chciało). W tym pliku jest wszystko czego potrzebujesz. Jeśli 
 brakuje to zrobiłeś coś źle. Zacznij od sprawdzenia rozszerzeń plików i struktury
 folderów. Jak nie będzie śmigać to zakomentuj 
 
-#outputuje wszelkie printu
 ```
 import sys
 sys.stdout = open('output.txt','wt')
@@ -28,6 +27,7 @@ i szukaj problwmu na własną rękę. Stawiam na rozszerzenia lub problem z fraz
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 [**All Star**](https://www.youtube.com/watch?v=L_jWHffIx5E)
+
 Smash Mouth
 Somebody once told me the world is gonna roll me
 I ain't the sharpest tool in the shed
