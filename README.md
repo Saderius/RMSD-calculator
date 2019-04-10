@@ -1,7 +1,7 @@
 # RMSD-calculator
 Skrypt liczący wartości RMSD dla dowolnych ligandów po zadokowaniu do białek.
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
-UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA 
+UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA UWAGA 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 Skrypt działa jedynie z plikami ligandów o rozszerzeniu mol2. W przypadku innych
 plików rozszerzeń sugerowane jest przepisanie ich na do formatu mol2. Operację
