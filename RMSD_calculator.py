@@ -2,6 +2,10 @@ import os
 import math
 from glob import glob
 
+#outputuje wszelkie printu
+import sys
+sys.stdout = open('output.txt','wt')
+
 def porownanie(tab1,tab2):
     suma=[]
 

@@ -1,0 +1,94 @@
+Origin: gold_L03407810_m1_21.mol2
+
+Soln: 	 gold_soln_L03407810_m1_21_m1_63.mol2 	
+	 RMSD = 10.3391
+
+
+Origin: gold_CHEMBL183277_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL183277_m1_6.mol2 	
+	 RMSD = 41.4019
+
+
+Origin: gold_CHEMBL184607_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL184607_m1_5.mol2 	
+	 RMSD = 40.8608
+
+
+Origin: gold_CHEMBL2158026_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL2158026_m1_2.mol2 	
+	 RMSD = 40.5807
+
+
+Origin: gold_CHEMBL256047_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL256047_m1_3.mol2 	
+	 RMSD = 38.468
+
+
+Origin: gold_CHEMBL3546104_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL3546104_m1_4.mol2 	
+	 RMSD = 40.3301
+
+
+Origin: gold_CHEMBL3765844_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL3765844_m1_3.mol2 	
+	 RMSD = 41.8723
+
+
+Origin: gold_CHEMBL392888_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL392888_m1_2.mol2 	
+	 RMSD = 38.8013
+
+
+Origin: gold_CHEMBL476248_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL476248_m1_1.mol2 	
+	 RMSD = 40.7814
+
+
+Origin: gold_CHEMBL6310_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL6310_m1_2.mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (10).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (11).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (12).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (13).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (14).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (2).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (3).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (4).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (5).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (6).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (7).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (8).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (9).mol2 	
+	 RMSD = 41.156
+Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy.mol2 	
+	 RMSD = 41.156
+
+
+Origin: gold_CHEMBL93240_m1.mol2
+
+Soln: 	 gold_soln_CHEMBL93240_m1_4.mol2 	
+	 RMSD = 39.5208
+
+
