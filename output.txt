@@ -1,94 +1,1787 @@
-Origin: gold_L03407810_m1_21.mol2
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_1000rns
+Origin: gold_2y00_m1.mol2
 
-Soln: 	 gold_soln_L03407810_m1_21_m1_63.mol2 	
-	 RMSD = 10.3391
-
-
-Origin: gold_CHEMBL183277_m1.mol2
-
-Soln: 	 gold_soln_CHEMBL183277_m1_6.mol2 	
-	 RMSD = 41.4019
+Soln: 	 gold_soln_2y00_m1_32.mol2 	
+	 RMSD = 32.5797
 
 
-Origin: gold_CHEMBL184607_m1.mol2
+Origin: gold_2y02_m1.mol2
 
-Soln: 	 gold_soln_CHEMBL184607_m1_5.mol2 	
-	 RMSD = 40.8608
-
-
-Origin: gold_CHEMBL2158026_m1.mol2
-
-Soln: 	 gold_soln_CHEMBL2158026_m1_2.mol2 	
-	 RMSD = 40.5807
+Soln: 	 gold_soln_2y02_m1_5.mol2 	
+	 RMSD = 33.0046
 
 
-Origin: gold_CHEMBL256047_m1.mol2
+Origin: gold_3zpq_m1.mol2
 
-Soln: 	 gold_soln_CHEMBL256047_m1_3.mol2 	
-	 RMSD = 38.468
-
-
-Origin: gold_CHEMBL3546104_m1.mol2
-
-Soln: 	 gold_soln_CHEMBL3546104_m1_4.mol2 	
-	 RMSD = 40.3301
+Soln: 	 gold_soln_3zpq_m1_1.mol2 	
+	 RMSD = 28.022
 
 
-Origin: gold_CHEMBL3765844_m1.mol2
+Origin: gold_4amj_m1.mol2
 
-Soln: 	 gold_soln_CHEMBL3765844_m1_3.mol2 	
-	 RMSD = 41.8723
-
-
-Origin: gold_CHEMBL392888_m1.mol2
-
-Soln: 	 gold_soln_CHEMBL392888_m1_2.mol2 	
-	 RMSD = 38.8013
+Soln: 	 gold_soln_4amj_m1_45.mol2 	
+	 RMSD = 31.9263
 
 
-Origin: gold_CHEMBL476248_m1.mol2
+Origin: gold_4bvn_m1.mol2
 
-Soln: 	 gold_soln_CHEMBL476248_m1_1.mol2 	
-	 RMSD = 40.7814
-
-
-Origin: gold_CHEMBL6310_m1.mol2
-
-Soln: 	 gold_soln_CHEMBL6310_m1_2.mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (10).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (11).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (12).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (13).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (14).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (2).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (3).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (4).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (5).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (6).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (7).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (8).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy (9).mol2 	
-	 RMSD = 41.156
-Soln: 	 gold_soln_CHEMBL6310_m1_2 - Copy.mol2 	
-	 RMSD = 41.156
+Soln: 	 gold_soln_4bvn_m1_4.mol2 	
+	 RMSD = 30.5719
 
 
-Origin: gold_CHEMBL93240_m1.mol2
+Origin: gold_5a8e_m1.mol2
 
-Soln: 	 gold_soln_CHEMBL93240_m1_4.mol2 	
-	 RMSD = 39.5208
+Soln: 	 gold_soln_5a8e_m1_22.mol2 	
+	 RMSD = 32.7144
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_3.mol2 	
+	 RMSD = 28.8315
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_3.mol2 	
+	 RMSD = 29.237
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_607.mol2 	
+	 RMSD = 32.3722
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_3.mol2 	
+	 RMSD = 38.0883
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_100rns
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_51.mol2 	
+	 RMSD = 30.0226
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_3.mol2 	
+	 RMSD = 32.9714
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_2.mol2 	
+	 RMSD = 28.1366
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_1.mol2 	
+	 RMSD = 32.1956
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_2.mol2 	
+	 RMSD = 30.3817
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_5.mol2 	
+	 RMSD = 31.7592
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_2.mol2 	
+	 RMSD = 28.6828
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_2.mol2 	
+	 RMSD = 28.5635
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_46.mol2 	
+	 RMSD = 30.6363
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_2.mol2 	
+	 RMSD = 38.2605
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_10rns
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_6.mol2 	
+	 RMSD = 30.1899
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_6.mol2 	
+	 RMSD = 32.7271
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_1.mol2 	
+	 RMSD = 28.0939
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_4.mol2 	
+	 RMSD = 30.9987
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_1.mol2 	
+	 RMSD = 30.3154
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_1.mol2 	
+	 RMSD = 30.3126
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_3.mol2 	
+	 RMSD = 28.4946
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_2.mol2 	
+	 RMSD = 28.7312
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_1.mol2 	
+	 RMSD = 31.5203
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_1.mol2 	
+	 RMSD = 38.0995
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_ChemScore
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_10.mol2 	
+	 RMSD = 30.7885
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_18.mol2 	
+	 RMSD = 32.8882
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_1.mol2 	
+	 RMSD = 28.1291
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_45.mol2 	
+	 RMSD = 31.225
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_1.mol2 	
+	 RMSD = 30.9125
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_25.mol2 	
+	 RMSD = 31.2294
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_8.mol2 	
+	 RMSD = 30.1683
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_14.mol2 	
+	 RMSD = 30.5264
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_36.mol2 	
+	 RMSD = 30.88
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_2.mol2 	
+	 RMSD = 38.3049
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_flex
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_12.mol2 	
+	 RMSD = 32.1481
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_2.mol2 	
+	 RMSD = 33.1061
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_1.mol2 	
+	 RMSD = 27.9509
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_26.mol2 	
+	 RMSD = 30.8587
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_28.mol2 	
+	 RMSD = 28.7143
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_39.mol2 	
+	 RMSD = 32.7802
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_3.mol2 	
+	 RMSD = 28.6206
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_1.mol2 	
+	 RMSD = 28.72
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_6.mol2 	
+	 RMSD = 30.8448
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_5.mol2 	
+	 RMSD = 38.1604
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_GA10
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_87.mol2 	
+	 RMSD = 32.5232
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_1.mol2 	
+	 RMSD = 32.4839
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_2.mol2 	
+	 RMSD = 27.9181
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_14.mol2 	
+	 RMSD = 32.0082
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_4.mol2 	
+	 RMSD = 30.6713
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_8.mol2 	
+	 RMSD = 31.8104
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_14.mol2 	
+	 RMSD = 28.6981
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_3.mol2 	
+	 RMSD = 28.7106
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_73.mol2 	
+	 RMSD = 32.4048
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_31.mol2 	
+	 RMSD = 38.3229
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_GA200
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_6.mol2 	
+	 RMSD = 32.5651
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_18.mol2 	
+	 RMSD = 32.8131
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_1.mol2 	
+	 RMSD = 28.0456
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_65.mol2 	
+	 RMSD = 32.2325
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_2.mol2 	
+	 RMSD = 30.3416
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_3.mol2 	
+	 RMSD = 31.7849
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_1.mol2 	
+	 RMSD = 28.8676
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_3.mol2 	
+	 RMSD = 28.5959
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_32.mol2 	
+	 RMSD = 32.423
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_2.mol2 	
+	 RMSD = 38.2736
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_GoldScore
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_4.mol2 	
+	 RMSD = 30.5099
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_4.mol2 	
+	 RMSD = 31.7975
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_4.mol2 	
+	 RMSD = 28.0724
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_95.mol2 	
+	 RMSD = 29.1025
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_70.mol2 	
+	 RMSD = 31.2353
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_3.mol2 	
+	 RMSD = 30.2337
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_1.mol2 	
+	 RMSD = 27.8962
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_83.mol2 	
+	 RMSD = 27.8307
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_61.mol2 	
+	 RMSD = 30.6656
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_2.mol2 	
+	 RMSD = 37.9361
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 1/GoldOut_beta1_sztywne
+Origin: gold_2y00_m1.mol2
+
+Soln: 	 gold_soln_2y00_m1_1.mol2 	
+	 RMSD = 30.5741
+
+
+Origin: gold_2y02_m1.mol2
+
+Soln: 	 gold_soln_2y02_m1_2.mol2 	
+	 RMSD = 29.5154
+
+
+Origin: gold_3zpq_m1.mol2
+
+Soln: 	 gold_soln_3zpq_m1_3.mol2 	
+	 RMSD = 27.9092
+
+
+Origin: gold_4amj_m1.mol2
+
+Soln: 	 gold_soln_4amj_m1_3.mol2 	
+	 RMSD = 29.9858
+
+
+Origin: gold_4bvn_m1.mol2
+
+Soln: 	 gold_soln_4bvn_m1_1.mol2 	
+	 RMSD = 28.5935
+
+
+Origin: gold_5a8e_m1.mol2
+
+Soln: 	 gold_soln_5a8e_m1_1.mol2 	
+	 RMSD = 28.3519
+
+
+Origin: gold_6h7j_m1.mol2
+
+Soln: 	 gold_soln_6h7j_m1_1.mol2 	
+	 RMSD = 28.5651
+
+
+Origin: gold_6h7m_m1.mol2
+
+Soln: 	 gold_soln_6h7m_m1_1.mol2 	
+	 RMSD = 28.6666
+
+
+Origin: gold_6h7n_m1.mol2
+
+Soln: 	 gold_soln_6h7n_m1_1.mol2 	
+	 RMSD = 30.152
+
+
+Origin: gold_6ibl_m1.mol2
+
+Soln: 	 gold_soln_6ibl_m1_2.mol2 	
+	 RMSD = 30.0224
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldConf_beta2_100rns
+Origin: gold_protein.mol2
+
+
+
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_3.mol2 	
+	 RMSD = 31.9066
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_13.mol2 	
+	 RMSD = 32.0585
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_1.mol2 	
+	 RMSD = 33.0582
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_21.mol2 	
+	 RMSD = 34.0582
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_1000rns
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_6.mol2 	
+	 RMSD = 31.8795
+Soln: 	 gold_soln_2rh1_m1_7.mol2 	
+	 RMSD = 32.0669
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_3.mol2 	
+	 RMSD = 32.0902
+Soln: 	 gold_soln_3d4s_m1_7.mol2 	
+	 RMSD = 32.0691
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_10.mol2 	
+	 RMSD = 32.9572
+Soln: 	 gold_soln_3ny8_m1_21.mol2 	
+	 RMSD = 32.9991
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_1.mol2 	
+	 RMSD = 34.1198
+Soln: 	 gold_soln_3ny9_m1_12.mol2 	
+	 RMSD = 32.3988
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_22.mol2 	
+	 RMSD = 32.2901
+Soln: 	 gold_soln_3nya_m1_7.mol2 	
+	 RMSD = 32.235
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_2.mol2 	
+	 RMSD = 34.1891
+Soln: 	 gold_soln_4lde_m1_3.mol2 	
+	 RMSD = 34.0905
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_15.mol2 	
+	 RMSD = 34.2044
+Soln: 	 gold_soln_4ldl_m1_2.mol2 	
+	 RMSD = 34.2528
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_4.mol2 	
+	 RMSD = 32.2919
+Soln: 	 gold_soln_4ldo_m1_5.mol2 	
+	 RMSD = 32.3065
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_1.mol2 	
+	 RMSD = 34.0322
+Soln: 	 gold_soln_4qkx_m1_10.mol2 	
+	 RMSD = 32.9734
+Soln: 	 gold_soln_4qkx_m1_100.mol2 	
+	 RMSD = 33.8207
+Soln: 	 gold_soln_4qkx_m1_101.mol2 	
+	 RMSD = 33.4085
+Soln: 	 gold_soln_4qkx_m1_102.mol2 	
+	 RMSD = 33.6165
+Soln: 	 gold_soln_4qkx_m1_103.mol2 	
+	 RMSD = 34.0495
+Soln: 	 gold_soln_4qkx_m1_104.mol2 	
+	 RMSD = 32.9956
+Soln: 	 gold_soln_4qkx_m1_105.mol2 	
+	 RMSD = 33.0065
+Soln: 	 gold_soln_4qkx_m1_106.mol2 	
+	 RMSD = 33.958
+Soln: 	 gold_soln_4qkx_m1_107.mol2 	
+	 RMSD = 33.6564
+Soln: 	 gold_soln_4qkx_m1_108.mol2 	
+	 RMSD = 33.6035
+Soln: 	 gold_soln_4qkx_m1_109.mol2 	
+	 RMSD = 33.4285
+Soln: 	 gold_soln_4qkx_m1_11.mol2 	
+	 RMSD = 34.0002
+Soln: 	 gold_soln_4qkx_m1_110.mol2 	
+	 RMSD = 34.2651
+Soln: 	 gold_soln_4qkx_m1_111.mol2 	
+	 RMSD = 32.6653
+Soln: 	 gold_soln_4qkx_m1_112.mol2 	
+	 RMSD = 32.7673
+Soln: 	 gold_soln_4qkx_m1_113.mol2 	
+	 RMSD = 33.6662
+Soln: 	 gold_soln_4qkx_m1_114.mol2 	
+	 RMSD = 33.1291
+Soln: 	 gold_soln_4qkx_m1_115.mol2 	
+	 RMSD = 34.1468
+Soln: 	 gold_soln_4qkx_m1_116.mol2 	
+	 RMSD = 33.0186
+Soln: 	 gold_soln_4qkx_m1_117.mol2 	
+	 RMSD = 33.509
+Soln: 	 gold_soln_4qkx_m1_118.mol2 	
+	 RMSD = 32.9639
+Soln: 	 gold_soln_4qkx_m1_119.mol2 	
+	 RMSD = 33.5914
+Soln: 	 gold_soln_4qkx_m1_12.mol2 	
+	 RMSD = 32.7502
+Soln: 	 gold_soln_4qkx_m1_120.mol2 	
+	 RMSD = 33.534
+Soln: 	 gold_soln_4qkx_m1_121.mol2 	
+	 RMSD = 34.0677
+Soln: 	 gold_soln_4qkx_m1_122.mol2 	
+	 RMSD = 32.9629
+Soln: 	 gold_soln_4qkx_m1_123.mol2 	
+	 RMSD = 33.2748
+Soln: 	 gold_soln_4qkx_m1_124.mol2 	
+	 RMSD = 33.8738
+Soln: 	 gold_soln_4qkx_m1_125.mol2 	
+	 RMSD = 33.1179
+Soln: 	 gold_soln_4qkx_m1_126.mol2 	
+	 RMSD = 32.8934
+Soln: 	 gold_soln_4qkx_m1_127.mol2 	
+	 RMSD = 32.3827
+Soln: 	 gold_soln_4qkx_m1_128.mol2 	
+	 RMSD = 33.1248
+Soln: 	 gold_soln_4qkx_m1_129.mol2 	
+	 RMSD = 33.2133
+Soln: 	 gold_soln_4qkx_m1_13.mol2 	
+	 RMSD = 33.5525
+Soln: 	 gold_soln_4qkx_m1_130.mol2 	
+	 RMSD = 33.5168
+Soln: 	 gold_soln_4qkx_m1_131.mol2 	
+	 RMSD = 33.6262
+Soln: 	 gold_soln_4qkx_m1_132.mol2 	
+	 RMSD = 33.3107
+Soln: 	 gold_soln_4qkx_m1_133.mol2 	
+	 RMSD = 34.2217
+Soln: 	 gold_soln_4qkx_m1_134.mol2 	
+	 RMSD = 33.6856
+Soln: 	 gold_soln_4qkx_m1_135.mol2 	
+	 RMSD = 33.4869
+Soln: 	 gold_soln_4qkx_m1_136.mol2 	
+	 RMSD = 32.9513
+Soln: 	 gold_soln_4qkx_m1_137.mol2 	
+	 RMSD = 33.7856
+Soln: 	 gold_soln_4qkx_m1_138.mol2 	
+	 RMSD = 33.4343
+Soln: 	 gold_soln_4qkx_m1_139.mol2 	
+	 RMSD = 33.8193
+Soln: 	 gold_soln_4qkx_m1_14.mol2 	
+	 RMSD = 33.0312
+Soln: 	 gold_soln_4qkx_m1_140.mol2 	
+	 RMSD = 33.3585
+Soln: 	 gold_soln_4qkx_m1_141.mol2 	
+	 RMSD = 33.9616
+Soln: 	 gold_soln_4qkx_m1_142.mol2 	
+	 RMSD = 33.5527
+Soln: 	 gold_soln_4qkx_m1_143.mol2 	
+	 RMSD = 33.1576
+Soln: 	 gold_soln_4qkx_m1_144.mol2 	
+	 RMSD = 33.8538
+Soln: 	 gold_soln_4qkx_m1_145.mol2 	
+	 RMSD = 33.6316
+Soln: 	 gold_soln_4qkx_m1_146.mol2 	
+	 RMSD = 33.6294
+Soln: 	 gold_soln_4qkx_m1_147.mol2 	
+	 RMSD = 34.091
+Soln: 	 gold_soln_4qkx_m1_148.mol2 	
+	 RMSD = 33.1966
+Soln: 	 gold_soln_4qkx_m1_149.mol2 	
+	 RMSD = 33.6342
+Soln: 	 gold_soln_4qkx_m1_15.mol2 	
+	 RMSD = 33.4979
+Soln: 	 gold_soln_4qkx_m1_150.mol2 	
+	 RMSD = 33.2382
+Soln: 	 gold_soln_4qkx_m1_151.mol2 	
+	 RMSD = 32.8104
+Soln: 	 gold_soln_4qkx_m1_152.mol2 	
+	 RMSD = 33.5466
+Soln: 	 gold_soln_4qkx_m1_153.mol2 	
+	 RMSD = 34.0137
+Soln: 	 gold_soln_4qkx_m1_154.mol2 	
+	 RMSD = 32.882
+Soln: 	 gold_soln_4qkx_m1_155.mol2 	
+	 RMSD = 33.5309
+Soln: 	 gold_soln_4qkx_m1_156.mol2 	
+	 RMSD = 34.2233
+Soln: 	 gold_soln_4qkx_m1_157.mol2 	
+	 RMSD = 33.5253
+Soln: 	 gold_soln_4qkx_m1_158.mol2 	
+	 RMSD = 33.7071
+Soln: 	 gold_soln_4qkx_m1_159.mol2 	
+	 RMSD = 33.7611
+Soln: 	 gold_soln_4qkx_m1_16.mol2 	
+	 RMSD = 33.45
+Soln: 	 gold_soln_4qkx_m1_160.mol2 	
+	 RMSD = 32.8292
+Soln: 	 gold_soln_4qkx_m1_161.mol2 	
+	 RMSD = 33.6305
+Soln: 	 gold_soln_4qkx_m1_162.mol2 	
+	 RMSD = 33.4954
+Soln: 	 gold_soln_4qkx_m1_163.mol2 	
+	 RMSD = 33.8329
+Soln: 	 gold_soln_4qkx_m1_164.mol2 	
+	 RMSD = 32.8967
+Soln: 	 gold_soln_4qkx_m1_165.mol2 	
+	 RMSD = 33.82
+Soln: 	 gold_soln_4qkx_m1_166.mol2 	
+	 RMSD = 33.0894
+Soln: 	 gold_soln_4qkx_m1_167.mol2 	
+	 RMSD = 33.7994
+Soln: 	 gold_soln_4qkx_m1_168.mol2 	
+	 RMSD = 33.5579
+Soln: 	 gold_soln_4qkx_m1_169.mol2 	
+	 RMSD = 33.4388
+Soln: 	 gold_soln_4qkx_m1_17.mol2 	
+	 RMSD = 34.4885
+Soln: 	 gold_soln_4qkx_m1_170.mol2 	
+	 RMSD = 33.4749
+Soln: 	 gold_soln_4qkx_m1_171.mol2 	
+	 RMSD = 33.9234
+Soln: 	 gold_soln_4qkx_m1_172.mol2 	
+	 RMSD = 34.3891
+Soln: 	 gold_soln_4qkx_m1_173.mol2 	
+	 RMSD = 32.7439
+Soln: 	 gold_soln_4qkx_m1_174.mol2 	
+	 RMSD = 33.8597
+Soln: 	 gold_soln_4qkx_m1_175.mol2 	
+	 RMSD = 33.1825
+Soln: 	 gold_soln_4qkx_m1_176.mol2 	
+	 RMSD = 34.1471
+Soln: 	 gold_soln_4qkx_m1_177.mol2 	
+	 RMSD = 32.8481
+Soln: 	 gold_soln_4qkx_m1_178.mol2 	
+	 RMSD = 33.5613
+Soln: 	 gold_soln_4qkx_m1_179.mol2 	
+	 RMSD = 33.7799
+Soln: 	 gold_soln_4qkx_m1_18.mol2 	
+	 RMSD = 33.973
+Soln: 	 gold_soln_4qkx_m1_180.mol2 	
+	 RMSD = 32.8539
+Soln: 	 gold_soln_4qkx_m1_181.mol2 	
+	 RMSD = 32.8504
+Soln: 	 gold_soln_4qkx_m1_182.mol2 	
+	 RMSD = 33.8332
+Soln: 	 gold_soln_4qkx_m1_183.mol2 	
+	 RMSD = 34.4078
+Soln: 	 gold_soln_4qkx_m1_184.mol2 	
+	 RMSD = 32.7996
+Soln: 	 gold_soln_4qkx_m1_185.mol2 	
+	 RMSD = 33.3476
+Soln: 	 gold_soln_4qkx_m1_186.mol2 	
+	 RMSD = 33.9687
+Soln: 	 gold_soln_4qkx_m1_187.mol2 	
+	 RMSD = 33.4855
+Soln: 	 gold_soln_4qkx_m1_188.mol2 	
+	 RMSD = 33.7773
+Soln: 	 gold_soln_4qkx_m1_189.mol2 	
+	 RMSD = 33.5759
+Soln: 	 gold_soln_4qkx_m1_19.mol2 	
+	 RMSD = 33.446
+Soln: 	 gold_soln_4qkx_m1_190.mol2 	
+	 RMSD = 33.5486
+Soln: 	 gold_soln_4qkx_m1_191.mol2 	
+	 RMSD = 33.6683
+Soln: 	 gold_soln_4qkx_m1_192.mol2 	
+	 RMSD = 33.6735
+Soln: 	 gold_soln_4qkx_m1_193.mol2 	
+	 RMSD = 33.7195
+Soln: 	 gold_soln_4qkx_m1_194.mol2 	
+	 RMSD = 32.985
+Soln: 	 gold_soln_4qkx_m1_195.mol2 	
+	 RMSD = 33.729
+Soln: 	 gold_soln_4qkx_m1_196.mol2 	
+	 RMSD = 33.7537
+Soln: 	 gold_soln_4qkx_m1_197.mol2 	
+	 RMSD = 33.8742
+Soln: 	 gold_soln_4qkx_m1_198.mol2 	
+	 RMSD = 33.8569
+Soln: 	 gold_soln_4qkx_m1_199.mol2 	
+	 RMSD = 34.2944
+Soln: 	 gold_soln_4qkx_m1_2.mol2 	
+	 RMSD = 33.3875
+Soln: 	 gold_soln_4qkx_m1_20.mol2 	
+	 RMSD = 32.8854
+Soln: 	 gold_soln_4qkx_m1_200.mol2 	
+	 RMSD = 33.9528
+Soln: 	 gold_soln_4qkx_m1_201.mol2 	
+	 RMSD = 33.8524
+Soln: 	 gold_soln_4qkx_m1_202.mol2 	
+	 RMSD = 33.6785
+Soln: 	 gold_soln_4qkx_m1_203.mol2 	
+	 RMSD = 34.0191
+Soln: 	 gold_soln_4qkx_m1_204.mol2 	
+	 RMSD = 33.7319
+Soln: 	 gold_soln_4qkx_m1_205.mol2 	
+	 RMSD = 33.0578
+Soln: 	 gold_soln_4qkx_m1_206.mol2 	
+	 RMSD = 33.289
+Soln: 	 gold_soln_4qkx_m1_207.mol2 	
+	 RMSD = 33.8907
+Soln: 	 gold_soln_4qkx_m1_208.mol2 	
+	 RMSD = 32.8081
+Soln: 	 gold_soln_4qkx_m1_209.mol2 	
+	 RMSD = 32.6277
+Soln: 	 gold_soln_4qkx_m1_21.mol2 	
+	 RMSD = 32.9754
+Soln: 	 gold_soln_4qkx_m1_210.mol2 	
+	 RMSD = 33.9096
+Soln: 	 gold_soln_4qkx_m1_211.mol2 	
+	 RMSD = 33.4917
+Soln: 	 gold_soln_4qkx_m1_212.mol2 	
+	 RMSD = 33.1881
+Soln: 	 gold_soln_4qkx_m1_213.mol2 	
+	 RMSD = 32.9339
+Soln: 	 gold_soln_4qkx_m1_214.mol2 	
+	 RMSD = 33.7811
+Soln: 	 gold_soln_4qkx_m1_22.mol2 	
+	 RMSD = 33.6168
+Soln: 	 gold_soln_4qkx_m1_23.mol2 	
+	 RMSD = 34.1963
+Soln: 	 gold_soln_4qkx_m1_24.mol2 	
+	 RMSD = 33.1949
+Soln: 	 gold_soln_4qkx_m1_25.mol2 	
+	 RMSD = 33.2135
+Soln: 	 gold_soln_4qkx_m1_26.mol2 	
+	 RMSD = 33.0058
+Soln: 	 gold_soln_4qkx_m1_27.mol2 	
+	 RMSD = 32.9343
+Soln: 	 gold_soln_4qkx_m1_28.mol2 	
+	 RMSD = 33.5453
+Soln: 	 gold_soln_4qkx_m1_29.mol2 	
+	 RMSD = 33.1003
+Soln: 	 gold_soln_4qkx_m1_3.mol2 	
+	 RMSD = 33.5951
+Soln: 	 gold_soln_4qkx_m1_30.mol2 	
+	 RMSD = 32.724
+Soln: 	 gold_soln_4qkx_m1_31.mol2 	
+	 RMSD = 33.8084
+Soln: 	 gold_soln_4qkx_m1_32.mol2 	
+	 RMSD = 33.8326
+Soln: 	 gold_soln_4qkx_m1_33.mol2 	
+	 RMSD = 33.4573
+Soln: 	 gold_soln_4qkx_m1_34.mol2 	
+	 RMSD = 33.4136
+Soln: 	 gold_soln_4qkx_m1_35.mol2 	
+	 RMSD = 33.6433
+Soln: 	 gold_soln_4qkx_m1_36.mol2 	
+	 RMSD = 33.8815
+Soln: 	 gold_soln_4qkx_m1_37.mol2 	
+	 RMSD = 32.9843
+Soln: 	 gold_soln_4qkx_m1_38.mol2 	
+	 RMSD = 33.6174
+Soln: 	 gold_soln_4qkx_m1_39.mol2 	
+	 RMSD = 33.4952
+Soln: 	 gold_soln_4qkx_m1_4.mol2 	
+	 RMSD = 33.1017
+Soln: 	 gold_soln_4qkx_m1_40.mol2 	
+	 RMSD = 33.5237
+Soln: 	 gold_soln_4qkx_m1_41.mol2 	
+	 RMSD = 33.1862
+Soln: 	 gold_soln_4qkx_m1_42.mol2 	
+	 RMSD = 33.7315
+Soln: 	 gold_soln_4qkx_m1_43.mol2 	
+	 RMSD = 33.5265
+Soln: 	 gold_soln_4qkx_m1_44.mol2 	
+	 RMSD = 34.2121
+Soln: 	 gold_soln_4qkx_m1_45.mol2 	
+	 RMSD = 33.4794
+Soln: 	 gold_soln_4qkx_m1_46.mol2 	
+	 RMSD = 32.9486
+Soln: 	 gold_soln_4qkx_m1_47.mol2 	
+	 RMSD = 33.1022
+Soln: 	 gold_soln_4qkx_m1_48.mol2 	
+	 RMSD = 33.2201
+Soln: 	 gold_soln_4qkx_m1_49.mol2 	
+	 RMSD = 33.9537
+Soln: 	 gold_soln_4qkx_m1_5.mol2 	
+	 RMSD = 34.3387
+Soln: 	 gold_soln_4qkx_m1_50.mol2 	
+	 RMSD = 33.6208
+Soln: 	 gold_soln_4qkx_m1_51.mol2 	
+	 RMSD = 33.6556
+Soln: 	 gold_soln_4qkx_m1_52.mol2 	
+	 RMSD = 33.036
+Soln: 	 gold_soln_4qkx_m1_53.mol2 	
+	 RMSD = 34.3163
+Soln: 	 gold_soln_4qkx_m1_54.mol2 	
+	 RMSD = 32.908
+Soln: 	 gold_soln_4qkx_m1_55.mol2 	
+	 RMSD = 33.8292
+Soln: 	 gold_soln_4qkx_m1_56.mol2 	
+	 RMSD = 34.0225
+Soln: 	 gold_soln_4qkx_m1_57.mol2 	
+	 RMSD = 33.1194
+Soln: 	 gold_soln_4qkx_m1_58.mol2 	
+	 RMSD = 33.533
+Soln: 	 gold_soln_4qkx_m1_59.mol2 	
+	 RMSD = 33.8066
+Soln: 	 gold_soln_4qkx_m1_6.mol2 	
+	 RMSD = 33.3971
+Soln: 	 gold_soln_4qkx_m1_60.mol2 	
+	 RMSD = 33.1536
+Soln: 	 gold_soln_4qkx_m1_61.mol2 	
+	 RMSD = 34.0408
+Soln: 	 gold_soln_4qkx_m1_62.mol2 	
+	 RMSD = 32.9211
+Soln: 	 gold_soln_4qkx_m1_63.mol2 	
+	 RMSD = 33.2502
+Soln: 	 gold_soln_4qkx_m1_64.mol2 	
+	 RMSD = 33.4016
+Soln: 	 gold_soln_4qkx_m1_65.mol2 	
+	 RMSD = 34.032
+Soln: 	 gold_soln_4qkx_m1_66.mol2 	
+	 RMSD = 33.3565
+Soln: 	 gold_soln_4qkx_m1_67.mol2 	
+	 RMSD = 33.845
+Soln: 	 gold_soln_4qkx_m1_68.mol2 	
+	 RMSD = 33.705
+Soln: 	 gold_soln_4qkx_m1_69.mol2 	
+	 RMSD = 33.6718
+Soln: 	 gold_soln_4qkx_m1_7.mol2 	
+	 RMSD = 33.7216
+Soln: 	 gold_soln_4qkx_m1_70.mol2 	
+	 RMSD = 34.1858
+Soln: 	 gold_soln_4qkx_m1_71.mol2 	
+	 RMSD = 33.4057
+Soln: 	 gold_soln_4qkx_m1_72.mol2 	
+	 RMSD = 33.7567
+Soln: 	 gold_soln_4qkx_m1_73.mol2 	
+	 RMSD = 33.4778
+Soln: 	 gold_soln_4qkx_m1_74.mol2 	
+	 RMSD = 32.8896
+Soln: 	 gold_soln_4qkx_m1_75.mol2 	
+	 RMSD = 33.5177
+Soln: 	 gold_soln_4qkx_m1_76.mol2 	
+	 RMSD = 33.4533
+Soln: 	 gold_soln_4qkx_m1_77.mol2 	
+	 RMSD = 33.5566
+Soln: 	 gold_soln_4qkx_m1_78.mol2 	
+	 RMSD = 33.6222
+Soln: 	 gold_soln_4qkx_m1_79.mol2 	
+	 RMSD = 33.3532
+Soln: 	 gold_soln_4qkx_m1_8.mol2 	
+	 RMSD = 32.8382
+Soln: 	 gold_soln_4qkx_m1_80.mol2 	
+	 RMSD = 33.5488
+Soln: 	 gold_soln_4qkx_m1_81.mol2 	
+	 RMSD = 33.4304
+Soln: 	 gold_soln_4qkx_m1_82.mol2 	
+	 RMSD = 35.8127
+Soln: 	 gold_soln_4qkx_m1_83.mol2 	
+	 RMSD = 33.0811
+Soln: 	 gold_soln_4qkx_m1_84.mol2 	
+	 RMSD = 33.3514
+Soln: 	 gold_soln_4qkx_m1_85.mol2 	
+	 RMSD = 33.977
+Soln: 	 gold_soln_4qkx_m1_86.mol2 	
+	 RMSD = 33.4283
+Soln: 	 gold_soln_4qkx_m1_87.mol2 	
+	 RMSD = 32.2293
+Soln: 	 gold_soln_4qkx_m1_88.mol2 	
+	 RMSD = 33.7723
+Soln: 	 gold_soln_4qkx_m1_89.mol2 	
+	 RMSD = 33.508
+Soln: 	 gold_soln_4qkx_m1_9.mol2 	
+	 RMSD = 32.7487
+Soln: 	 gold_soln_4qkx_m1_90.mol2 	
+	 RMSD = 33.04
+Soln: 	 gold_soln_4qkx_m1_91.mol2 	
+	 RMSD = 33.499
+Soln: 	 gold_soln_4qkx_m1_92.mol2 	
+	 RMSD = 33.5547
+Soln: 	 gold_soln_4qkx_m1_93.mol2 	
+	 RMSD = 33.3206
+Soln: 	 gold_soln_4qkx_m1_94.mol2 	
+	 RMSD = 33.7306
+Soln: 	 gold_soln_4qkx_m1_95.mol2 	
+	 RMSD = 32.7944
+Soln: 	 gold_soln_4qkx_m1_96.mol2 	
+	 RMSD = 34.0799
+Soln: 	 gold_soln_4qkx_m1_97.mol2 	
+	 RMSD = 33.7052
+Soln: 	 gold_soln_4qkx_m1_98.mol2 	
+	 RMSD = 32.8939
+Soln: 	 gold_soln_4qkx_m1_99.mol2 	
+	 RMSD = 33.0841
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_687.mol2 	
+	 RMSD = 34.259
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_100rns
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_3.mol2 	
+	 RMSD = 31.9066
+Soln: 	 gold_soln_2rh1_m1_8.mol2 	
+	 RMSD = 32.0327
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_1.mol2 	
+	 RMSD = 33.0557
+Soln: 	 gold_soln_3d4s_m1_13.mol2 	
+	 RMSD = 32.0585
+Soln: 	 gold_soln_3d4s_m1_15.mol2 	
+	 RMSD = 32.0209
+Soln: 	 gold_soln_3d4s_m1_2.mol2 	
+	 RMSD = 32.8044
+Soln: 	 gold_soln_3d4s_m1_3.mol2 	
+	 RMSD = 32.848
+Soln: 	 gold_soln_3d4s_m1_6.mol2 	
+	 RMSD = 32.0772
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_1.mol2 	
+	 RMSD = 33.0582
+Soln: 	 gold_soln_3ny8_m1_10.mol2 	
+	 RMSD = 32.9249
+Soln: 	 gold_soln_3ny8_m1_11.mol2 	
+	 RMSD = 32.9238
+Soln: 	 gold_soln_3ny8_m1_12.mol2 	
+	 RMSD = 32.9188
+Soln: 	 gold_soln_3ny8_m1_13.mol2 	
+	 RMSD = 33.1765
+Soln: 	 gold_soln_3ny8_m1_14.mol2 	
+	 RMSD = 33.2196
+Soln: 	 gold_soln_3ny8_m1_15.mol2 	
+	 RMSD = 32.4676
+Soln: 	 gold_soln_3ny8_m1_16.mol2 	
+	 RMSD = 32.9446
+Soln: 	 gold_soln_3ny8_m1_17.mol2 	
+	 RMSD = 33.3395
+Soln: 	 gold_soln_3ny8_m1_18.mol2 	
+	 RMSD = 33.0816
+Soln: 	 gold_soln_3ny8_m1_19.mol2 	
+	 RMSD = 33.0284
+Soln: 	 gold_soln_3ny8_m1_2.mol2 	
+	 RMSD = 32.5188
+Soln: 	 gold_soln_3ny8_m1_20.mol2 	
+	 RMSD = 32.8782
+Soln: 	 gold_soln_3ny8_m1_21.mol2 	
+	 RMSD = 32.9345
+Soln: 	 gold_soln_3ny8_m1_22.mol2 	
+	 RMSD = 33.361
+Soln: 	 gold_soln_3ny8_m1_23.mol2 	
+	 RMSD = 32.8271
+Soln: 	 gold_soln_3ny8_m1_24.mol2 	
+	 RMSD = 33.1017
+Soln: 	 gold_soln_3ny8_m1_25.mol2 	
+	 RMSD = 32.3611
+Soln: 	 gold_soln_3ny8_m1_26.mol2 	
+	 RMSD = 33.1349
+Soln: 	 gold_soln_3ny8_m1_27.mol2 	
+	 RMSD = 33.0671
+Soln: 	 gold_soln_3ny8_m1_28.mol2 	
+	 RMSD = 33.1283
+Soln: 	 gold_soln_3ny8_m1_29.mol2 	
+	 RMSD = 33.0035
+Soln: 	 gold_soln_3ny8_m1_3.mol2 	
+	 RMSD = 32.2592
+Soln: 	 gold_soln_3ny8_m1_30.mol2 	
+	 RMSD = 32.6088
+Soln: 	 gold_soln_3ny8_m1_31.mol2 	
+	 RMSD = 32.3789
+Soln: 	 gold_soln_3ny8_m1_32.mol2 	
+	 RMSD = 32.2814
+Soln: 	 gold_soln_3ny8_m1_33.mol2 	
+	 RMSD = 33.0997
+Soln: 	 gold_soln_3ny8_m1_34.mol2 	
+	 RMSD = 32.7695
+Soln: 	 gold_soln_3ny8_m1_35.mol2 	
+	 RMSD = 32.5437
+Soln: 	 gold_soln_3ny8_m1_36.mol2 	
+	 RMSD = 32.8533
+Soln: 	 gold_soln_3ny8_m1_37.mol2 	
+	 RMSD = 33.0439
+Soln: 	 gold_soln_3ny8_m1_38.mol2 	
+	 RMSD = 32.8883
+Soln: 	 gold_soln_3ny8_m1_39.mol2 	
+	 RMSD = 32.3677
+Soln: 	 gold_soln_3ny8_m1_4.mol2 	
+	 RMSD = 32.3454
+Soln: 	 gold_soln_3ny8_m1_40.mol2 	
+	 RMSD = 33.1043
+Soln: 	 gold_soln_3ny8_m1_41.mol2 	
+	 RMSD = 33.1638
+Soln: 	 gold_soln_3ny8_m1_42.mol2 	
+	 RMSD = 33.2107
+Soln: 	 gold_soln_3ny8_m1_43.mol2 	
+	 RMSD = 32.3385
+Soln: 	 gold_soln_3ny8_m1_44.mol2 	
+	 RMSD = 32.3205
+Soln: 	 gold_soln_3ny8_m1_45.mol2 	
+	 RMSD = 32.7172
+Soln: 	 gold_soln_3ny8_m1_46.mol2 	
+	 RMSD = 33.146
+Soln: 	 gold_soln_3ny8_m1_47.mol2 	
+	 RMSD = 32.4638
+Soln: 	 gold_soln_3ny8_m1_48.mol2 	
+	 RMSD = 32.9196
+Soln: 	 gold_soln_3ny8_m1_49.mol2 	
+	 RMSD = 32.5366
+Soln: 	 gold_soln_3ny8_m1_5.mol2 	
+	 RMSD = 32.9791
+Soln: 	 gold_soln_3ny8_m1_50.mol2 	
+	 RMSD = 32.9162
+Soln: 	 gold_soln_3ny8_m1_51.mol2 	
+	 RMSD = 33.4207
+Soln: 	 gold_soln_3ny8_m1_52.mol2 	
+	 RMSD = 32.4538
+Soln: 	 gold_soln_3ny8_m1_53.mol2 	
+	 RMSD = 32.9882
+Soln: 	 gold_soln_3ny8_m1_54.mol2 	
+	 RMSD = 32.3561
+Soln: 	 gold_soln_3ny8_m1_55.mol2 	
+	 RMSD = 32.4528
+Soln: 	 gold_soln_3ny8_m1_56.mol2 	
+	 RMSD = 33.3192
+Soln: 	 gold_soln_3ny8_m1_57.mol2 	
+	 RMSD = 32.5398
+Soln: 	 gold_soln_3ny8_m1_58.mol2 	
+	 RMSD = 32.5473
+Soln: 	 gold_soln_3ny8_m1_59.mol2 	
+	 RMSD = 32.9901
+Soln: 	 gold_soln_3ny8_m1_6.mol2 	
+	 RMSD = 32.9922
+Soln: 	 gold_soln_3ny8_m1_60.mol2 	
+	 RMSD = 32.5618
+Soln: 	 gold_soln_3ny8_m1_61.mol2 	
+	 RMSD = 33.2277
+Soln: 	 gold_soln_3ny8_m1_62.mol2 	
+	 RMSD = 32.4779
+Soln: 	 gold_soln_3ny8_m1_63.mol2 	
+	 RMSD = 33.2834
+Soln: 	 gold_soln_3ny8_m1_64.mol2 	
+	 RMSD = 32.3847
+Soln: 	 gold_soln_3ny8_m1_65.mol2 	
+	 RMSD = 32.3202
+Soln: 	 gold_soln_3ny8_m1_66.mol2 	
+	 RMSD = 33.0426
+Soln: 	 gold_soln_3ny8_m1_67.mol2 	
+	 RMSD = 33.1428
+Soln: 	 gold_soln_3ny8_m1_7.mol2 	
+	 RMSD = 33.2244
+Soln: 	 gold_soln_3ny8_m1_8.mol2 	
+	 RMSD = 32.2935
+Soln: 	 gold_soln_3ny8_m1_9.mol2 	
+	 RMSD = 32.7331
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_6.mol2 	
+	 RMSD = 34.0321
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_8.mol2 	
+	 RMSD = 32.1051
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_11.mol2 	
+	 RMSD = 34.1079
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_1.mol2 	
+	 RMSD = 33.357
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_3.mol2 	
+	 RMSD = 32.2871
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_18.mol2 	
+	 RMSD = 33.7519
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_21.mol2 	
+	 RMSD = 34.0582
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_10rns
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_5.mol2 	
+	 RMSD = 31.7943
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_2.mol2 	
+	 RMSD = 32.068
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_5.mol2 	
+	 RMSD = 32.9695
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_1.mol2 	
+	 RMSD = 34.1799
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_8.mol2 	
+	 RMSD = 32.227
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_2.mol2 	
+	 RMSD = 34.1369
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_1.mol2 	
+	 RMSD = 33.3527
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_5.mol2 	
+	 RMSD = 31.1468
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_3.mol2 	
+	 RMSD = 33.3441
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_9.mol2 	
+	 RMSD = 34.2642
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_ChemScore
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_13.mol2 	
+	 RMSD = 32.1632
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_3.mol2 	
+	 RMSD = 33.2931
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_1.mol2 	
+	 RMSD = 33.6236
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_43.mol2 	
+	 RMSD = 32.5164
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_6.mol2 	
+	 RMSD = 32.4073
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_93.mol2 	
+	 RMSD = 34.0296
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_33.mol2 	
+	 RMSD = 34.3278
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_1.mol2 	
+	 RMSD = 32.707
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_68.mol2 	
+	 RMSD = 33.9144
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_2.mol2 	
+	 RMSD = 34.6662
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_flex
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_1.mol2 	
+	 RMSD = 32.6151
+Soln: 	 gold_soln_2rh1_m1_2.mol2 	
+	 RMSD = 31.9647
+Soln: 	 gold_soln_2rh1_m1_3.mol2 	
+	 RMSD = 31.8013
+Soln: 	 gold_soln_2rh1_m1_4.mol2 	
+	 RMSD = 31.9371
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_1.mol2 	
+	 RMSD = 32.7668
+Soln: 	 gold_soln_3d4s_m1_2.mol2 	
+	 RMSD = 32.6675
+Soln: 	 gold_soln_3d4s_m1_3.mol2 	
+	 RMSD = 32.3956
+Soln: 	 gold_soln_3d4s_m1_4.mol2 	
+	 RMSD = 32.3705
+Soln: 	 gold_soln_3d4s_m1_5.mol2 	
+	 RMSD = 32.4799
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_2.mol2 	
+	 RMSD = 32.2389
+Soln: 	 gold_soln_3ny8_m1_32.mol2 	
+	 RMSD = 32.3128
+Soln: 	 gold_soln_3ny8_m1_63.mol2 	
+	 RMSD = 32.3361
+Soln: 	 gold_soln_3ny8_m1_75.mol2 	
+	 RMSD = 32.2852
+Soln: 	 gold_soln_3ny8_m1_81.mol2 	
+	 RMSD = 32.3295
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_1.mol2 	
+	 RMSD = 30.942
+Soln: 	 gold_soln_3ny9_m1_16.mol2 	
+	 RMSD = 34.1546
+Soln: 	 gold_soln_3ny9_m1_24.mol2 	
+	 RMSD = 34.1993
+Soln: 	 gold_soln_3ny9_m1_25.mol2 	
+	 RMSD = 34.1116
+Soln: 	 gold_soln_3ny9_m1_7.mol2 	
+	 RMSD = 34.1349
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_1.mol2 	
+	 RMSD = 32.6557
+Soln: 	 gold_soln_3nya_m1_3.mol2 	
+	 RMSD = 32.9289
+Soln: 	 gold_soln_3nya_m1_4.mol2 	
+	 RMSD = 32.1881
+Soln: 	 gold_soln_3nya_m1_5.mol2 	
+	 RMSD = 32.1524
+Soln: 	 gold_soln_3nya_m1_6.mol2 	
+	 RMSD = 32.3076
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_11.mol2 	
+	 RMSD = 34.0817
+Soln: 	 gold_soln_4lde_m1_4.mol2 	
+	 RMSD = 33.9799
+Soln: 	 gold_soln_4lde_m1_5.mol2 	
+	 RMSD = 33.6815
+Soln: 	 gold_soln_4lde_m1_6.mol2 	
+	 RMSD = 34.1719
+Soln: 	 gold_soln_4lde_m1_8.mol2 	
+	 RMSD = 34.0416
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_1.mol2 	
+	 RMSD = 33.3993
+Soln: 	 gold_soln_4ldl_m1_2.mol2 	
+	 RMSD = 33.3575
+Soln: 	 gold_soln_4ldl_m1_3.mol2 	
+	 RMSD = 33.2142
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_1.mol2 	
+	 RMSD = 32.4668
+Soln: 	 gold_soln_4ldo_m1_2.mol2 	
+	 RMSD = 32.377
+Soln: 	 gold_soln_4ldo_m1_4.mol2 	
+	 RMSD = 32.9893
+Soln: 	 gold_soln_4ldo_m1_5.mol2 	
+	 RMSD = 32.3965
+Soln: 	 gold_soln_4ldo_m1_6.mol2 	
+	 RMSD = 32.3717
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_3.mol2 	
+	 RMSD = 33.9841
+Soln: 	 gold_soln_4qkx_m1_31.mol2 	
+	 RMSD = 32.9117
+Soln: 	 gold_soln_4qkx_m1_35.mol2 	
+	 RMSD = 32.7734
+Soln: 	 gold_soln_4qkx_m1_55.mol2 	
+	 RMSD = 33.0035
+Soln: 	 gold_soln_4qkx_m1_61.mol2 	
+	 RMSD = 33.0066
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_22.mol2 	
+	 RMSD = 34.0547
+Soln: 	 gold_soln_6mxt_m1_32.mol2 	
+	 RMSD = 34.5225
+Soln: 	 gold_soln_6mxt_m1_54.mol2 	
+	 RMSD = 33.2277
+Soln: 	 gold_soln_6mxt_m1_59.mol2 	
+	 RMSD = 34.6146
+Soln: 	 gold_soln_6mxt_m1_89.mol2 	
+	 RMSD = 34.5151
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_GA10
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_38.mol2 	
+	 RMSD = 32.1139
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_6.mol2 	
+	 RMSD = 32.0434
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_56.mol2 	
+	 RMSD = 33.2703
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_3.mol2 	
+	 RMSD = 33.1409
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_51.mol2 	
+	 RMSD = 32.0754
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_37.mol2 	
+	 RMSD = 34.0945
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_82.mol2 	
+	 RMSD = 33.092
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_3.mol2 	
+	 RMSD = 32.3763
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_50.mol2 	
+	 RMSD = 33.6774
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_55.mol2 	
+	 RMSD = 34.4067
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_GA200
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_8.mol2 	
+	 RMSD = 31.9706
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_4.mol2 	
+	 RMSD = 32.0944
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_3.mol2 	
+	 RMSD = 33.0498
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_4.mol2 	
+	 RMSD = 34.1321
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_3.mol2 	
+	 RMSD = 32.1795
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_9.mol2 	
+	 RMSD = 34.1978
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_2.mol2 	
+	 RMSD = 33.3948
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_1.mol2 	
+	 RMSD = 32.2832
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_89.mol2 	
+	 RMSD = 33.8526
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_94.mol2 	
+	 RMSD = 34.3439
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_GOLDScore
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_1.mol2 	
+	 RMSD = 32.4553
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_8.mol2 	
+	 RMSD = 32.2219
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_3.mol2 	
+	 RMSD = 32.3304
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_19.mol2 	
+	 RMSD = 31.8538
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_1.mol2 	
+	 RMSD = 32.447
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_2.mol2 	
+	 RMSD = 33.4391
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_16.mol2 	
+	 RMSD = 33.8725
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_4.mol2 	
+	 RMSD = 32.6642
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_90.mol2 	
+	 RMSD = 33.7505
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_40.mol2 	
+	 RMSD = 33.6368
+
+
+C:\Users\porto\OneDrive\Dokumenty\Magisterka\Projektowanie leków in silico\Projekt/Beta 2/GoldOut_beta2_sztywno
+Origin: gold_2rh1_m1.mol2
+
+Soln: 	 gold_soln_2rh1_m1_1.mol2 	
+	 RMSD = 32.0323
+
+
+Origin: gold_3d4s_m1.mol2
+
+Soln: 	 gold_soln_3d4s_m1_3.mol2 	
+	 RMSD = 32.0185
+
+
+Origin: gold_3ny8_m1.mol2
+
+Soln: 	 gold_soln_3ny8_m1_1.mol2 	
+	 RMSD = 32.1647
+
+
+Origin: gold_3ny9_m1.mol2
+
+Soln: 	 gold_soln_3ny9_m1_3.mol2 	
+	 RMSD = 31.5374
+
+
+Origin: gold_3nya_m1.mol2
+
+Soln: 	 gold_soln_3nya_m1_1.mol2 	
+	 RMSD = 32.338
+
+
+Origin: gold_4lde_m1.mol2
+
+Soln: 	 gold_soln_4lde_m1_3.mol2 	
+	 RMSD = 33.5628
+
+
+Origin: gold_4ldl_m1.mol2
+
+Soln: 	 gold_soln_4ldl_m1_2.mol2 	
+	 RMSD = 32.8675
+
+
+Origin: gold_4ldo_m1.mol2
+
+Soln: 	 gold_soln_4ldo_m1_1.mol2 	
+	 RMSD = 33.2838
+
+
+Origin: gold_4qkx_m1.mol2
+
+Soln: 	 gold_soln_4qkx_m1_2.mol2 	
+	 RMSD = 33.2745
+
+
+Origin: gold_6mxt_m1.mol2
+
+Soln: 	 gold_soln_6mxt_m1_2.mol2 	
+	 RMSD = 32.015
 
 
