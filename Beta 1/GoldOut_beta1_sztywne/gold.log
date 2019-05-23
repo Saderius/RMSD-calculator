@@ -1,0 +1,50 @@
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/2y00.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/2y00.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/2y00.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/2y00.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/2y02.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/2y02.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/2y02.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/2y02.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/3zpq.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/3zpq.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/3zpq.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/3zpq.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/4amj.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/4amj.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/4amj.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/4amj.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/4bvn.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/4bvn.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/4bvn.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/4bvn.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/5a8e.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/5a8e.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/5a8e.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/5a8e.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7j.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7j.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7j.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7j.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7m.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7m.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7m.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7m.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7n.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7n.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7n.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6h7n.mol2'
+Beginning ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6ibl.mol2'
+Starting at ligand 1 (byte position 0) in file 'C:/Users/student/Desktop/project/beta1/ligandy/6ibl.mol2'
+Finishing at final ligand in file 'C:/Users/student/Desktop/project/beta1/ligandy/6ibl.mol2'
+Completed docking of ligand 1 in ligand file 'C:/Users/student/Desktop/project/beta1/ligandy/6ibl.mol2'
+
+Finished GOLD batch job, exiting..
+
+
+--------------------------------------------------------------------------------
+
+* Total run time :                                                              
+  total 27.0011 user 27.0004 sys  0.0007
+
+--------------------------------------------------------------------------------

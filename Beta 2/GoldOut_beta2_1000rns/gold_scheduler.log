@@ -1,0 +1,74 @@
+
+--------------------------------------------------------------------------------
+--- GOLD DOCKING RUN  (GOLD v5.5 ) scheduler                                 ---
+--------------------------------------------------------------------------------
+
+GOLD is Genetic Optimisation for Ligand Docking.
+
+GOLD is the result of a collaborative project between Sheffield University,
+the CCDC and Glaxo Wellcome. GOLD is a proprietary product for which the
+copyright is held by the Cambridge Crystallographic Data Centre (CCDC)
+
+Please forward any comments, bugs, or queries to CCDC Software Support:
+
+  Cambridge Crystallographic Data Centre
+  12 Union Road
+  Cambridge CB2 1EZ
+  tel: (44) (1223) 336022
+  email: support@ccdc.cam.ac.uk
+
+--------------------------------------------------------------------------------
+
+  User                                     : mateusz
+  Invocation Time                          : Wed Apr  3 12:31:46 2019
+
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/2rh1.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/2rh1.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/2rh1.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/2rh1.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3d4s.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3d4s.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3d4s.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3d4s.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny8.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny8.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny8.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny8.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny9.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny9.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny9.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny9.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3nya.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3nya.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3nya.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3nya.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4lde.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4lde.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4lde.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4lde.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldl.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldl.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldl.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldl.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldo.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldo.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldo.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4ldo.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4qkx.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4qkx.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4qkx.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/4qkx.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/6mxt.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/6mxt.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/6mxt.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/6mxt.mol2 scheduled or completed
+Starting next ligand file...

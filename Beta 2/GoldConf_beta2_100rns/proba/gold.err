@@ -1,0 +1,8 @@
+
+
+********************************************************************************
+Ligand in file E:/Projekt modelowanie/beta2/ligandy/2rh1.mol2, named C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_2rh1.pdb L_2rh1.pdb 1,
+starting at address 0 raised the following warnings and/or errors
+Warning message: 
+set_atom_type: atom    7 in E:/Projekt modelowanie/beta2/ligandy/2rh1.mol2 is type  N.ar ; resetting to type N.pl3
+

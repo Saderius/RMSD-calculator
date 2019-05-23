@@ -1,0 +1,12 @@
+Fitness list for ligand file 3zpq.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  1        56.26     -55.23       1.00       0.00       0.00       0.00       1.84       1.72    4.001
+  2        56.07     -55.19       1.00       0.00       0.00       0.00       1.92       1.72    6.000
+  3        55.95     -54.99       1.00       0.00       0.00       0.00       1.88       1.72    6.000
+
+
+Average Values:
+
+           56.09     -55.13       1.00       0.00       0.00       0.00       1.88       1.72    5.334

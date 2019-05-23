@@ -1,0 +1,12 @@
+Fitness list for ligand file 4qkx.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  2        57.86     -51.86       2.00       0.00       0.00       0.00       0.00       0.00    1.000
+  1        57.86     -51.86       2.00       0.00       0.00       0.00       0.00       0.00    0.999
+  3        57.81     -51.83       1.99       0.00       0.00       0.00       0.00       0.00    0.001
+
+
+Average Values:
+
+           57.84     -51.85       2.00       0.00       0.00       0.00       0.00       0.00    0.667

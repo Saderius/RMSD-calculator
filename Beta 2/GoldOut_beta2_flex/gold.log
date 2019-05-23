@@ -1,0 +1,50 @@
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/2rh1.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/2rh1.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/2rh1.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/2rh1.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/3d4s.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/3d4s.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/3d4s.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/3d4s.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/3ny8.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/3ny8.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/3ny8.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/3ny8.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/3ny9.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/3ny9.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/3ny9.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/3ny9.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/3nya.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/3nya.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/3nya.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/3nya.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/4lde.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/4lde.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/4lde.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/4lde.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/4ldl.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/4ldl.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/4ldl.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/4ldl.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/4ldo.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/4ldo.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/4ldo.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/4ldo.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/4qkx.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/4qkx.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/4qkx.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/4qkx.mol2'
+Beginning ligand file 'E:/Projekt modelowanie/beta2/ligandy/6mxt.mol2'
+Starting at ligand 1 (byte position 0) in file 'E:/Projekt modelowanie/beta2/ligandy/6mxt.mol2'
+Finishing at final ligand in file 'E:/Projekt modelowanie/beta2/ligandy/6mxt.mol2'
+Completed docking of ligand 1 in ligand file 'E:/Projekt modelowanie/beta2/ligandy/6mxt.mol2'
+
+Finished GOLD batch job, exiting..
+
+
+--------------------------------------------------------------------------------
+
+* Total run time :                                                              
+  total 3095.0005 user 2936.0003 sys 159.0001
+
+--------------------------------------------------------------------------------

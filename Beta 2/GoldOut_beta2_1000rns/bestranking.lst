@@ -1,0 +1,15 @@
+# File containing a listing of the fitness of the top-ranked
+# individual for each ligand docked in GOLD.
+#
+# Format is:
+#
+#     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time                               File name                Ligand name
+
+     88.53     -80.04       3.00       0.00       0.00       0.00       0.30       0.06   47.000  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\2rh1_m1\gold_soln_2rh1_m1_7.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_2rh1.pdb L_2rh1.pdb 1'
+     74.27     -66.53       2.94       0.00       0.00       0.00       0.63       0.16   52.001  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\3d4s_m1\gold_soln_3d4s_m1_7.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3d4s.pdb L_3d4s.pdb 1'
+     67.58     -64.82       1.98       0.00       0.00       0.00       1.62       0.07   67.000  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\3ny8_m1\gold_soln_3ny8_m1_21.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3ny8.pdb L_3ny8.pdb 1'
+     72.59     -71.56       1.00       0.00       0.00       0.00       1.32       0.63   19.000  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\3ny9_m1\gold_soln_3ny9_m1_1.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3ny9.pdb L_3ny9.pdb 1'
+     73.64     -65.71       2.95       0.00       0.00       0.00       0.52       0.10   82.000  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\3nya_m1\gold_soln_3nya_m1_22.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3nya.pdb L_3nya.pdb 1'
+     80.52     -74.80       2.88       0.00       0.00       1.58       0.92       0.50   46.000  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\4lde_m1\gold_soln_4lde_m1_3.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_4lde.pdb L_4lde.pdb 1'
+     72.52     -65.87       2.90       0.00       0.00       0.75       0.97       0.30   54.000  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\4ldl_m1\gold_soln_4ldl_m1_2.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_4ldl.pdb L_4ldl.pdb 1'
+     50.21     -40.78       3.48       0.00       0.00       0.00       0.51       0.00   11.000  'E:/Projekt modelowanie/GoldOut_beta2_1000rns\4ldo_m1\gold_soln_4ldo_m1_5.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_4ldo.pdb L_4ldo.pdb 1'

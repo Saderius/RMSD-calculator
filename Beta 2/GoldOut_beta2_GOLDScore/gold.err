@@ -1,0 +1,16 @@
+
+
+********************************************************************************
+Ligand in file C:/Users/student/Desktop/Dokowanko/beta2/ligandy/2rh1.mol2, named C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_2rh1.pdb L_2rh1.pdb 1,
+starting at address 0 raised the following warnings and/or errors
+Warning message: 
+set_atom_type: atom    7 in C:/Users/student/Desktop/Dokowanko/beta2/ligandy/2rh1.mol2 is type  N.ar ; resetting to type N.pl3
+
+
+
+********************************************************************************
+Ligand in file C:/Users/student/Desktop/Dokowanko/beta2/ligandy/3ny9.mol2, named C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3ny9.pdb L_3ny9.pdb 1,
+starting at address 0 raised the following warnings and/or errors
+Warning message: 
+set_atom_type: atom    7 in C:/Users/student/Desktop/Dokowanko/beta2/ligandy/3ny9.mol2 is type   O.2 ; resetting to type   O.3
+

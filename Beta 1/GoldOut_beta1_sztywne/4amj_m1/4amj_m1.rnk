@@ -1,0 +1,12 @@
+Fitness list for ligand file 4amj.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  3        89.42     -89.42       0.00       0.00       0.00       0.00       0.00       0.00    0.001
+  1        89.41     -89.41       0.00       0.00       0.00       0.00       0.00       0.00    0.999
+  2        89.28     -89.28       0.00       0.00       0.00       0.00       0.00       0.00    1.000
+
+
+Average Values:
+
+           89.37     -89.37       0.00       0.00       0.00       0.00       0.00       0.00    0.667

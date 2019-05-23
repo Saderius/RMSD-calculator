@@ -1,0 +1,8 @@
+# File containing a listing of the fitness of the top-ranked
+# individual for each ligand docked in GOLD.
+#
+# Format is:
+#
+#     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time                               File name                Ligand name
+
+     88.46     -79.99       3.00       0.00       0.00       0.00       0.33       0.13   43.000  'E:/Projekt modelowanie/GoldOut_beta2_100rns\2rh1_m1\gold_soln_2rh1_m1_8.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_2rh1.pdb L_2rh1.pdb 1'

@@ -1,0 +1,12 @@
+Fitness list for ligand file 4ldl.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  2        65.59     -60.99       1.53       0.00       0.00       0.00       0.00       0.00    1.000
+  3        62.11     -62.05       0.02       0.00       0.00       0.00       0.00       0.00    1.000
+  1        62.07     -62.01       0.02       0.00       0.00       0.00       0.00       0.00    0.001
+
+
+Average Values:
+
+           63.26     -61.68       0.52       0.00       0.00       0.00       0.00       0.00    0.667

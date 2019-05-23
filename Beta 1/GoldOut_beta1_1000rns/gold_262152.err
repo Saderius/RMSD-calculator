@@ -1,0 +1,1417 @@
+-------------------------------------------------------------------------
+Host name is StacjaLinux
+PVM Process Id is 262152
+Master GOLD version: 5.5
+Slave GOLD version: 5.5
+-------------------------------------------------------------------------
+Warning message: 
+amide nitrogen 966 in molecule /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb is not planar
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom    1 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom    7 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom    8 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   22 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   31 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   39 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   42 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   44 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   45 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   46 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   60 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   72 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   85 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   86 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   93 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom   94 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  102 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  107 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  114 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  115 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  121 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  122 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  128 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  129 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  136 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  137 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  144 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  145 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  152 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  153 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  159 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  160 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  165 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  176 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  183 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  184 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  191 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  192 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  198 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  199 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  206 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  207 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  212 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  217 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  224 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  225 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  241 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  250 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  261 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  262 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  269 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  270 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  278 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  285 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  293 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  294 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  300 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  308 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  316 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  317 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  324 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  325 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  326 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  327 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  328 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  335 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  336 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  342 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  356 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  357 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  362 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  373 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  388 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  389 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  395 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  396 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  402 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  403 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  414 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  415 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  422 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  423 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  429 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  430 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  436 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  437 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  451 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  452 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  453 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  454 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  455 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  464 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  470 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  478 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  479 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  485 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  486 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  492 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  493 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  503 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  504 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  514 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  522 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  525 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  527 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  528 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  529 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  536 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  537 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  544 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  547 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  549 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  550 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  551 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  568 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  569 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  570 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  571 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  572 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  579 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  580 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  602 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  603 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  610 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  613 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  615 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  616 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  617 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  623 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  637 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  638 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  652 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  653 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  660 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  661 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  673 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  674 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  680 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  686 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  698 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  699 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  714 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  722 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  723 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  735 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  736 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  743 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  744 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  749 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  756 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  757 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  775 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  776 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  783 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  784 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  785 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  786 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  795 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  796 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  801 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  808 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  809 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  815 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  836 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  837 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  838 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  839 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  840 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  850 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  851 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  858 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  859 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  860 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  861 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  871 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  885 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  886 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  894 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  900 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  911 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  912 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  917 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  927 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  928 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  933 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  942 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  948 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  949 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  956 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  957 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  964 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  965 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  972 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  980 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  987 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  988 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  995 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom  998 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1000 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1001 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1002 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1007 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1014 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1015 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1026 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1033 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1034 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1040 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1041 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1054 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1055 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1056 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1057 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1058 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1065 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1066 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1080 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1081 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1089 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1097 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1104 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1114 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1117 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1119 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1120 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1121 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1128 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1131 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1133 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1134 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1135 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1145 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1146 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1186 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1192 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1199 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1200 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1209 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1222 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1223 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1224 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1225 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1235 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1282 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1283 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1284 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1285 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1286 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1292 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1293 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1299 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1307 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1318 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1319 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1324 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1331 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1332 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1333 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1334 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1341 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1348 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1349 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1354 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1373 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1374 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1381 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1382 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1395 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1396 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1397 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1398 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1399 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1406 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1407 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1408 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1409 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1418 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1419 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1433 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1434 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1441 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1442 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1449 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1450 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1458 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1465 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1466 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1473 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1474 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1475 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1476 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1477 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1483 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1484 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1489 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1496 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1497 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1507 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1508 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1514 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1515 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1522 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1523 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1524 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1525 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1537 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1538 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1552 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1561 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1578 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1586 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1587 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1597 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1598 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1607 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1608 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1617 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1618 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1627 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1633 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1650 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1651 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1657 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1658 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1666 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1673 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1674 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1682 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1692 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1693 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1709 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1721 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1726 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1733 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1734 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1743 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1749 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1757 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1758 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1769 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1770 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1777 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1778 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1786 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1796 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1797 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1804 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1805 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1806 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1807 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1808 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1814 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1822 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1823 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1836 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1839 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1841 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1842 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1843 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1850 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1851 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1865 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1866 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1867 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1868 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1869 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1876 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1877 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1878 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1879 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1880 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1887 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1888 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1894 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1895 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1902 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1910 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1911 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1917 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1918 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1925 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1932 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1933 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1940 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1941 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1942 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1943 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1944 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1951 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1962 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1963 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1978 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1979 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1985 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 1986 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2002 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2009 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2012 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2014 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2015 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2016 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2023 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2024 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2031 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2032 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2033 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2034 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2035 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2041 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2042 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2047 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2054 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2055 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2056 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2057 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2058 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2065 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2073 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2076 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2078 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2079 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2080 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2087 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2088 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2099 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2100 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2101 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2102 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2109 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2116 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2128 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2136 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2143 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2158 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2159 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2166 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2167 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2174 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2175 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2191 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2192 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2220 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2221 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2222 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2223 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2224 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2234 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2235 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2244 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2249 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2256 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2257 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2258 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2259 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2260 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2269 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2279 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2280 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2287 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2288 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2295 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2296 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+set_pdb_atom_types: can't deduce type of atom 2301 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/bialko_beta1.pdb, replacing by Du
+
+Warning message: 
+add_1lp_to_sp3: N.3 atom 1902 has 1 connections
+
+Warning message: 
+init_protein: only found 0 h-donors in the active site: check origin and radius
+
+Warning message: 
+init_protein: only found 3 h-acceptors in the active site: check origin and radius
+
+
+
+********************************************************************************
+Ligand in file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/5a8e.mol2, named C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_5a8e.pdb L_5a8e.pdb 1,
+starting at address 0 raised the following warnings and/or errors
+Warning message: 
+set_atom_type: atom    2 in /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/5a8e.mol2 is type  N.ar ; resetting to type N.pl3
+
+Warning message: 
+chemscore_get_bond_type: unknown bond type for bond 1-21

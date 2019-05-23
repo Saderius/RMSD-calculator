@@ -1,0 +1,12 @@
+Fitness list for ligand file 2rh1.mol2, molecule 1
+
+Mol No     Fitness  S(hb_ext) S(vdw_ext)  S(hb_int)    S(int)      intcor     time
+
+  1        73.99       9.00      47.54       0.00      -0.36      -5.34    0.000
+  2        72.65       8.76      47.49       0.00      -1.41      -5.34   19.001
+  3        62.08       3.56      46.45       0.00      -5.34      -5.34   19.999
+
+
+Average Values:
+
+           69.58       7.11      47.16       0.00      -2.37      -5.34   13.000

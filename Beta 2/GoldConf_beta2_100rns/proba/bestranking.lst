@@ -1,0 +1,11 @@
+# File containing a listing of the fitness of the top-ranked
+# individual for each ligand docked in GOLD.
+#
+# Format is:
+#
+#     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time                               File name                Ligand name
+
+     86.79     -82.23       1.99       0.00       0.00       0.00       0.74       0.06   58.001  'E:/Projekt modelowanie/GoldConf_beta2_100rns/proba\2rh1_m1\gold_soln_2rh1_m1_3.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_2rh1.pdb L_2rh1.pdb 1'
+     73.79     -66.54       2.98       0.00       0.00       0.00       0.91       0.13   51.999  'E:/Projekt modelowanie/GoldConf_beta2_100rns/proba\3d4s_m1\gold_soln_3d4s_m1_13.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3d4s.pdb L_3d4s.pdb 1'
+     67.69     -64.21       2.00       0.00       0.00       0.00       1.53       0.24   13.000  'E:/Projekt modelowanie/GoldConf_beta2_100rns/proba\3ny8_m1\gold_soln_3ny8_m1_1.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3ny8.pdb L_3ny8.pdb 1'
+    105.92     -97.60       3.95       0.00       0.00       0.00       2.39       1.25   1159.000  'E:/Projekt modelowanie/GoldConf_beta2_100rns/proba\6mxt_m1\gold_soln_6mxt_m1_21.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_6mxt.pdb L_6mxt.pdb 1'

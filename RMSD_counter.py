@@ -5,7 +5,7 @@ from glob import glob
 
 #outputuje wszelkie printu
 import sys
-sys.stdout = open('output.txt','wt')
+sys.stdout = open('RMSD.txt','wt')
 
 def get_immediate_subdirectories(a_dir):
     return [name for name in os.listdir(a_dir)
@@ -94,14 +94,14 @@ for j in kk_2():
         if origin:
             print(i)
         for key in origin:
-            print('Origin:', key)
+            print('Origin:',key)
             print()
             c=False
             for key2 in soln:
                 if key[5:key[5:].find('_') + 5] == key2[10:key2[10:].find('_') + 10]:
                     c=True
                     print('Soln:', '\t', key2, '\t')
-                    # print('\t',round(porownanie(pliki[key],pliki[key2]),4))
+                    print('\t',round(porownanie(pliki[key],pliki[key2]),4))
                     print('\t', 'RMSD =', round(porownanie(pliki[key], pliki[key2]), 4))
             if a==False:
                 print('Nie został znaleziony soln pasujący do tego Origina')

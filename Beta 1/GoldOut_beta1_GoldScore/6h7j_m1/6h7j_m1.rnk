@@ -1,0 +1,12 @@
+Fitness list for ligand file 6h7j.mol2, molecule 1
+
+Mol No     Fitness  S(hb_ext) S(vdw_ext)  S(hb_int)    S(int)      intcor     time
+
+  1        37.00       0.00      27.21       0.00      -0.41      -8.27   15.999
+  3        36.94       0.60      27.19       0.00      -1.05      -8.27    9.000
+  2        36.76       0.70      26.70       0.00      -0.65      -8.27    9.000
+
+
+Average Values:
+
+           36.90       0.43      27.03       0.00      -0.70      -8.27   11.333

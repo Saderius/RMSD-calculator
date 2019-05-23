@@ -1,0 +1,12 @@
+Fitness list for ligand file 3nya.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  1        67.54     -65.93       0.54       0.00       0.00       0.00       0.00       0.00    1.000
+  3        67.53     -66.12       0.47       0.00       0.00       0.00       0.00       0.00    0.999
+  2        67.30     -65.35       0.65       0.00       0.00       0.00       0.00       0.00    0.000
+
+
+Average Values:
+
+           67.46     -65.80       0.55       0.00       0.00       0.00       0.00       0.00    0.666

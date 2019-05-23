@@ -1,0 +1,12 @@
+Fitness list for ligand file 6h7n.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  1        62.83     -62.83       0.00       0.00       0.00       0.00       0.00       0.00    1.000
+  2        62.77     -62.77       0.00       0.00       0.00       0.00       0.00       0.00    1.000
+  3        62.74     -62.74       0.00       0.00       0.00       0.00       0.00       0.00    1.000
+
+
+Average Values:
+
+           62.78     -62.78       0.00       0.00       0.00       0.00       0.00       0.00    1.000

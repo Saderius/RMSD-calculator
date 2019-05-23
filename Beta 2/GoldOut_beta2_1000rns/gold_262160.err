@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------
+Host name is StacjaLinux
+PVM Process Id is 262160
+Master GOLD version: 5.5
+Slave GOLD version: 5.5
+-------------------------------------------------------------------------
+
+
+********************************************************************************
+Ligand in file /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny9.mol2, named C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3ny9.pdb L_3ny9.pdb 1,
+starting at address 0 raised the following warnings and/or errors
+Warning message: 
+set_atom_type: atom    7 in /home/mateusz/Kasia/zajecia/dokowanie-patryk/beta2/ligandy/3ny9.mol2 is type   O.2 ; resetting to type   O.3
+

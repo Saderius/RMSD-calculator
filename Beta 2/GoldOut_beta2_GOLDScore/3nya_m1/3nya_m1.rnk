@@ -1,0 +1,13 @@
+Fitness list for ligand file 3nya.mol2, molecule 1
+
+Mol No     Fitness  S(hb_ext) S(vdw_ext)  S(hb_int)    S(int)      intcor     time
+
+  1        62.32       7.50      40.72       0.00      -1.17      -9.76   28.001
+  4        62.02       8.76      40.39       0.00      -2.27      -9.76   20.000
+  2        60.90       7.93      40.29       0.00      -2.43      -9.76   21.000
+  3        41.15       0.00      32.77       0.00      -3.91      -9.76   20.000
+
+
+Average Values:
+
+           56.60       6.05      38.54       0.00      -2.45      -9.76   22.250

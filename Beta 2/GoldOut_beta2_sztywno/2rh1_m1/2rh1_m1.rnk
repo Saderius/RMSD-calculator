@@ -1,0 +1,12 @@
+Fitness list for ligand file 2rh1.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  1        82.11     -79.11       1.00       0.00       0.00       0.00       0.00       0.00    0.000
+  2        82.08     -79.08       1.00       0.00       0.00       0.00       0.00       0.00    0.001
+  3        81.78     -78.78       1.00       0.00       0.00       0.00       0.00       0.00    1.000
+
+
+Average Values:
+
+           81.99     -78.99       1.00       0.00       0.00       0.00       0.00       0.00    0.333

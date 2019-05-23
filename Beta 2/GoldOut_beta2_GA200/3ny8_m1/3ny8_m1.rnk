@@ -1,0 +1,12 @@
+Fitness list for ligand file 3ny8.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  3        67.50     -64.23       2.00       0.00       0.00       0.00       1.48       0.22    6.000
+  1        67.08     -63.47       2.00       0.00       0.00       0.00       1.49       0.22    8.000
+  2        66.99     -63.44       1.90       0.00       0.00       0.00       1.18       0.22    7.000
+
+
+Average Values:
+
+           67.19     -63.71       1.97       0.00       0.00       0.00       1.38       0.22    7.000

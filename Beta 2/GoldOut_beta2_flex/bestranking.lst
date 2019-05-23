@@ -1,0 +1,17 @@
+# File containing a listing of the fitness of the top-ranked
+# individual for each ligand docked in GOLD.
+#
+# Format is:
+#
+#     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time                               File name                Ligand name
+
+     85.66     -80.78       1.99       0.00       0.00       0.00       0.57       0.04   18.000  'E:/Projekt modelowanie/GoldOut_beta2_flex\2rh1_m1\gold_soln_2rh1_m1_4.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_2rh1.pdb L_2rh1.pdb 1'
+     62.13     -56.63       3.00       0.00       0.00       0.00       3.36       3.23   76.001  'E:/Projekt modelowanie/GoldOut_beta2_flex\3d4s_m1\gold_soln_3d4s_m1_4.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3d4s.pdb L_3d4s.pdb 1'
+     68.01     -66.47       1.00       0.00       0.00       0.00       3.06       4.66   407.999  'E:/Projekt modelowanie/GoldOut_beta2_flex\3ny8_m1\gold_soln_3ny8_m1_63.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3ny8.pdb L_3ny8.pdb 1'
+     72.07     -70.04       0.99       0.00       0.00       0.00       0.60       0.25   138.001  'E:/Projekt modelowanie/GoldOut_beta2_flex\3ny9_m1\gold_soln_3ny9_m1_16.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3ny9.pdb L_3ny9.pdb 1'
+     73.91     -67.35       2.95       0.00       0.00       0.00       1.21       0.14   28.000  'E:/Projekt modelowanie/GoldOut_beta2_flex\3nya_m1\gold_soln_3nya_m1_6.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_3nya.pdb L_3nya.pdb 1'
+     78.90     -74.31       2.94       0.00       0.00       1.55       1.70       0.71   60.000  'E:/Projekt modelowanie/GoldOut_beta2_flex\4lde_m1\gold_soln_4lde_m1_8.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_4lde.pdb L_4lde.pdb 1'
+     74.73     -65.65       3.52       0.00       0.00       0.02       1.20       0.96   19.000  'E:/Projekt modelowanie/GoldOut_beta2_flex\4ldl_m1\gold_soln_4ldl_m1_1.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_4ldl.pdb L_4ldl.pdb 1'
+     49.18     -39.60       3.53       0.00       0.00       0.00       0.51       0.00   16.000  'E:/Projekt modelowanie/GoldOut_beta2_flex\4ldo_m1\gold_soln_4ldo_m1_6.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_4ldo.pdb L_4ldo.pdb 1'
+     81.43     -79.38       2.78       0.00       0.00       3.56       4.49       4.21   848.000  'E:/Projekt modelowanie/GoldOut_beta2_flex\4qkx_m1\gold_soln_4qkx_m1_3.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_4qkx.pdb L_4qkx.pdb 1'
+     96.05    -100.63       2.26       0.00       0.00       5.17       3.83       1.49   1322.000  'E:/Projekt modelowanie/GoldOut_beta2_flex\6mxt_m1\gold_soln_6mxt_m1_89.mol2'  'C:\Users\porto\OneDrive\projekt\beta2\ligandy\L_6mxt.pdb L_6mxt.pdb 1'

@@ -1,0 +1,19 @@
+
+@<TRIPOS>MOLECULE
+1
+     6 0 1
+PROTEIN
+NONE
+
+
+@<TRIPOS>ATOM
+      1 C          -31.5641   7.8440  18.1427 Du             1 RES                0.0000
+      2 C          -28.5843   7.7547  22.1853 Du             1 RES                0.0000
+      3 C          -26.7051   8.0287  22.6671 Du             1 RES                0.0000
+      4 C          -30.6605   5.7435  24.7558 Du             1 RES                0.0000
+      5 C          -26.7143  10.2291  19.5801 Du             1 RES                0.0000
+      6 C          -23.2713   6.9184  18.0260 Du             1 RES                0.0000
+@<TRIPOS>BOND
+
+@<TRIPOS>SUBSTRUCTURE
+  1 RES 1

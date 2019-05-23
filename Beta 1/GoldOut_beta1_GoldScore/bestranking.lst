@@ -1,0 +1,17 @@
+# File containing a listing of the fitness of the top-ranked
+# individual for each ligand docked in GOLD.
+#
+# Format is:
+#
+#     Fitness  S(hb_ext) S(vdw_ext)  S(hb_int)    S(int)      intcor     time                               File name                Ligand name
+
+     49.38       1.97      36.32       0.00      -2.53      -6.77   716.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\2y00_m1\gold_soln_2y00_m1_4.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\2y00 2y00 1'
+     56.41       2.00      40.45       0.00      -1.21      -9.42   101.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\2y02_m1\gold_soln_2y02_m1_4.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_2y02.pdb L_2y02.pdb 1'
+     38.22       0.31      27.61       0.00      -0.07      -3.77    7.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\3zpq_m1\gold_soln_3zpq_m1_4.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_3zpq.pdb L_3zpq.pdb 1'
+     66.58       0.00      49.62       0.00      -1.65     -11.37   1937.001  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\4amj_m1\gold_soln_4amj_m1_95.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_4amj.pdb L_4amj.pdb 1'
+     49.54       1.92      35.82       0.00      -1.62      -8.56   1342.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\4bvn_m1\gold_soln_4bvn_m1_70.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_4bvn.pdb L_4bvn.pdb 1'
+     51.80       0.00      38.37       0.00      -0.96      -5.51   75.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\5a8e_m1\gold_soln_5a8e_m1_3.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_5a8e.pdb L_5a8e.pdb 1'
+     37.00       0.00      27.21       0.00      -0.41      -8.27   28.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\6h7j_m1\gold_soln_6h7j_m1_1.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6h7j.pdb L_6h7j.pdb 1'
+     39.93       0.00      29.77       0.00      -1.01      -6.05   1275.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\6h7m_m1\gold_soln_6h7m_m1_83.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6h7m.pdb L_6h7m.pdb 1'
+     54.50       0.00      39.95       0.00      -0.43     -16.29   1010.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\6h7n_m1\gold_soln_6h7n_m1_61.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6h7n.pdb L_6h7n.pdb 1'
+     55.57       1.64      39.89       0.00      -0.93     -10.20   258.000  'C:/Users/student/Desktop/Dokowanko/beta1/GoldOut_beta1_GoldScore\6ibl_m1\gold_soln_6ibl_m1_2.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6ibl.pdb L_6ibl.pdb 1'

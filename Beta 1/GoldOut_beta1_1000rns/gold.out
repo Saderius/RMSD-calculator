@@ -1,0 +1,81 @@
+Param file name: /opt/CCDC/GoldSuite_2017/GOLD/gold/gold.params
+Program name: /opt/CCDC/GoldSuite_2017/GOLD/gold/d_linux_64/bin/schedule_linux_64
+Working directory: /home/mateusz/Kasia/zajecia/dokowanie-karolina
+Host file: /home/mateusz/Kasia/zajecia/dokowanie-karolina/gold.hosts
+Config file: gold.conf
+No. of parallel tasks: 8
+
+Signals have been set up
+
+Sending docking to 262147
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262148
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262149
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262150
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262151
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262152
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262153
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262154
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262150
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262147
+Start point (byte position in file): 0
+Ligand counter (no. of ligand in file): 1
+
+Sending docking to 262147
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+
+Sending docking to 262148
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+
+Sending docking to 262149
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+
+Sending docking to 262150
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+
+Sending docking to 262151
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+
+Sending docking to 262152
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+
+Sending docking to 262153
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+
+Sending docking to 262154
+Start point (byte position in file): -1
+Ligand counter (no. of ligand in file): -1
+

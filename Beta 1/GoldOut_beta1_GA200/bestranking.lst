@@ -1,0 +1,17 @@
+# File containing a listing of the fitness of the top-ranked
+# individual for each ligand docked in GOLD.
+#
+# Format is:
+#
+#     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time                               File name                Ligand name
+
+     72.70     -70.99       1.00       0.00       0.00       0.00       0.69       0.09   141.000  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\2y00_m1\gold_soln_2y00_m1_6.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\2y00 2y00 1'
+     81.01     -78.12       2.00       0.00       0.00       0.00       1.77       0.44   164.001  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\2y02_m1\gold_soln_2y02_m1_18.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_2y02.pdb L_2y02.pdb 1'
+     54.99     -53.27       0.71       0.00       0.00       0.00       0.78       1.13    4.000  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\3zpq_m1\gold_soln_3zpq_m1_1.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_3zpq.pdb L_3zpq.pdb 1'
+     92.31     -92.92       1.00       0.00       0.00       0.98       1.85       0.75   1097.000  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\4amj_m1\gold_soln_4amj_m1_65.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_4amj.pdb L_4amj.pdb 1'
+     60.52     -58.59       1.00       0.00       0.00       0.00       0.56       0.04   18.000  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\4bvn_m1\gold_soln_4bvn_m1_2.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_4bvn.pdb L_4bvn.pdb 1'
+     61.70     -60.21       1.00       0.00       0.00       0.00       0.83       0.15   18.000  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\5a8e_m1\gold_soln_5a8e_m1_3.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_5a8e.pdb L_5a8e.pdb 1'
+     52.14     -49.60       1.00       0.00       0.00       0.00       0.25       0.02   16.000  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\6h7j_m1\gold_soln_6h7j_m1_1.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6h7j.pdb L_6h7j.pdb 1'
+     56.71     -55.46       1.00       0.00       0.00       0.01       0.91       0.07   29.001  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\6h7m_m1\gold_soln_6h7m_m1_3.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6h7m.pdb L_6h7m.pdb 1'
+     74.51     -70.66       2.00       0.00       0.00       0.00       1.18       0.21   293.001  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\6h7n_m1\gold_soln_6h7n_m1_32.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6h7n.pdb L_6h7n.pdb 1'
+     76.82     -76.41       1.00       0.00       0.00       0.00       1.53       0.44   138.000  'C:/Users/student/Desktop/project/beta1/GoldOut_beta1_GA200\6ibl_m1\gold_soln_6ibl_m1_2.mol2'  'C:\Users\porto\OneDrive\projekt\beta1\ligandy\L_6ibl.pdb L_6ibl.pdb 1'

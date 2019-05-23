@@ -1,0 +1,1328 @@
+
+--------------------------------------------------------------------------------
+--- GOLD DOCKING RUN  (GOLD v5.5 )                                           ---
+--------------------------------------------------------------------------------
+
+GOLD is Genetic Optimisation for Ligand Docking.
+
+GOLD is the result of a collaborative project between Sheffield University,
+the CCDC and Glaxo Wellcome. GOLD is a proprietary product for which the
+copyright is held by the Cambridge Crystallographic Data Centre (CCDC)
+
+Please forward any comments, bugs, or queries to CCDC Software Support:
+
+  Cambridge Crystallographic Data Centre
+  12 Union Road
+  Cambridge CB2 1EZ
+  tel: (44) (1223) 336022
+  email: support@ccdc.cam.ac.uk
+
+--------------------------------------------------------------------------------
+
+  User                                     : student
+  Invocation Time                          : Mon Apr 08 14:40:16 2019
+
+
+--------------------------------------------------------------------------------
+--- Parameter setting overview (user-defined or automatic)                   ---
+--------------------------------------------------------------------------------
+  maxops                          automatic setting
+  popsiz                          automatic setting
+  select_pressure                 automatic setting
+  n_islands                       automatic setting
+  niche_siz                       automatic setting
+  pt_crosswt                      automatic setting
+  allele_mutatewt                 automatic setting
+  migratewt                       automatic setting
+  start_vdw_linear_cutoff         defined by user
+  initial_virtual_pt_match_max    defined by user
+
+--------------------------------------------------------------------------------
+--- ChemScore parameters                                                     ---
+--------------------------------------------------------------------------------
+
+* ChemScore coefficients                                                        
+  ZERO_COEFFICIENT                         :  -5.480
+  HBOND_COEFFICIENT                        :  -3.000
+  INTERNAL_HBOND_COEFFICIENT               :  -3.340
+  METAL_COEFFICIENT                        :  -6.000
+  LIPO_COEFFICIENT                         :  -0.117
+  ROT_COEFFICIENT                          :   2.560
+  INTRA_COEFFICIENT                        :   1.000
+  LINK_BEND_COEFFICIENT                    :   0.250
+  PROTEIN_ENERGY_COEFFICIENT               :   1.000
+  CHARGED_HBOND_SCALING                    :   2.000
+  CHARGED_METAL_SCALING                    :   2.000
+
+* Hydrogen-bond term                                                            
+  HBOND_FUNCTION                           : CHEMSCORE_DOCKING
+  R_IDEAL                                  :   1.850
+  DELTA_R_IDEAL                            :   0.250
+  DELTA_R_MAX                              :   0.650
+  HBOND_R_SIGMA                            :   0.000
+  ALPHA_IDEAL                              : 180.000
+  DELTA_ALPHA_IDEAL                        :  30.000
+  DELTA_ALPHA_MAX                          :  80.000
+  HBOND_ALPHA_SIGMA                        :   0.000
+  BETA_IDEAL                               : 180.000
+  DELTA_BETA_IDEAL                         :  80.000
+  DELTA_BETA_MAX                           : 100.000
+  HBOND_BETA_SIGMA                         :   0.000
+USE_HBOND_STRENGTHS = OFF
+
+  CH...O term                              : SPECIAL
+  CHO_COEFFICIENT       (kJ/mol)           :  -3.000
+  CHO_CLASH_RADIUS      (Angstrom)         :   2.400
+  CHO_R_IDEAL           (Angstrom)         :   2.350
+  CHO_DELTA_R_IDEAL     (Angstrom)         :   0.250
+  CHO_DELTA_R_MAX       (Angstrom)         :   0.650
+  CHO_ALPHA_IDEAL       (degrees)          : 180.000
+  CHO_DELTA_ALPHA_IDEAL (degrees)          :  50.000
+  CHO_DELTA_ALPHA_MAX   (degrees)          : 100.000
+  CHO_BETA_IDEAL        (degrees)          : 180.000
+  CHO_DELTA_BETA_IDEAL  (degrees)          :  80.000
+  CHO_DELTA_BETA_MAX    (degrees)          : 100.000
+
+Sulfur...acceptor term: 
+
+
+* Metal term                                                                    
+  METAL_R1                                 :   2.600
+  METAL_R2                                 :   3.000
+  METAL_R_SIGMA                            :   0.100
+
+* Specific metal-coordination types                                             
+
+
+* Lipophilic term                                                               
+  MAKE_PLANAR_N_LIPO                       :      0
+  LIPO_R1                                  :   4.100
+  LIPO_R2                                  :   7.100
+  LIPO_R_SIGMA                             :   0.100
+
+
+* Clash term                                                                    
+  CLASH_FUNCTION                           : CHEMSCORE_DOCKING
+  CLASH_RADIUS_GENERAL                     :   3.100
+  CLASH_RADIUS_SULPHUR                     :   3.350
+  CLASH_RADIUS_HBOND                       :   1.600
+  CLASH_RADIUS_METAL                       :   1.380
+  CLASH_RADIUS_SIGMA                       :   0.000
+
+
+* Torsion term                                                                  
+  SP3_SP3_BOND         A =  0.18750 (kJ/mol); n = 3.0; f0 =  3.14159 (rad)
+  SP3_SP2_BOND         A =  0.09375 (kJ/mol); n = 6.0; f0 =  0.00000 (rad)
+  SP2_SP2_BOND         A =  0.18750 (kJ/mol); n = 2.0; f0 =  0.00000 (rad)
+  UNKNOWN_BOND         A =  0.00000 (kJ/mol); n = 0.0; f0 =  0.00000 (rad)
+  EXOCYCLIC_BOND       A =  0.50000 (kJ/mol); n = 1.0; f0 =  3.14159 (rad)
+USE_EXOCYCLIC_TORSION_TERM = 1
+
+
+* Scaling                                                                       
+  HBOND_SCALING                            :      0
+  HBOND_SCALING_SAMPLES                    :      1
+  HBOND_SCALING_END                        :  75.000
+  DELTA_R_MAX_START                        :   1.150
+  DELTA_ALPHA_MAX_START (deg)              : 110.000
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+--- CHEMPLP parameters                                                       ---
+--------------------------------------------------------------------------------
+
+  PLP_COEFFICIENT                          :   1.000
+  PLP_LIGAND_CLASH_COEFFICIENT             :   1.000
+  PLP_LIGAND_TORSION_COEFFICIENT           :   2.000
+  PLP_PROTEIN_ENERGY_COEFFICIENT           :   1.000
+  PLP_CONSTRAINT_COEFFICIENT               :   1.000
+  PLP_GRID_SPACING                         :   0.300
+
+  PLP_LIGAND_TORSION_FUNCTION              : CHEMSCORE
+  PLP_LIGAND_CLASH_FUNCTION                : PLP
+  PLP_HBOND_METAL_FUNCTION                 : CHEMSCORE
+
+  PLP_WATER_BARRIER                        :   3.000
+
+  HBOND_A                                  :   2.300
+  HBOND_B                                  :   2.600
+  HBOND_C                                  :   3.100
+  HBOND_D                                  :   3.400
+  HBOND_E                                  :  -1.000
+  HBOND_F                                  :  20.000
+
+  BURIED_A                                 :   3.400
+  BURIED_B                                 :   3.600
+  BURIED_C                                 :   4.500
+  BURIED_D                                 :   5.500
+  BURIED_E                                 :  -0.100
+  BURIED_F                                 :  20.000
+
+  METAL_A                                  :   1.400
+  METAL_B                                  :   2.200
+  METAL_C                                  :   2.600
+  METAL_D                                  :   2.800
+  METAL_E                                  :  -1.000
+  METAL_F                                  :  20.000
+
+  NONPOLAR_A                               :   3.400
+  NONPOLAR_B                               :   3.600
+  NONPOLAR_C                               :   4.500
+  NONPOLAR_D                               :   5.500
+  NONPOLAR_E                               :  -0.400
+  NONPOLAR_F                               :  20.000
+
+  REPULSIVE_A                              :   3.200
+  REPULSIVE_B                              :   5.000
+  REPULSIVE_C                              :   0.100
+  REPULSIVE_D                              :  20.000
+
+
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+--- Parameter settings                                                       ---
+--------------------------------------------------------------------------------
+
+* Population settings                                                           
+  maxops                                   : auto   
+  popsiz                                   : auto   
+  select_pressure                          : auto   
+  n_islands                                : auto   
+  niche_siz                                : auto   
+
+* GA settings                                                                   
+  pt_crosswt                               : auto   
+  allele_mutatewt                          : auto   
+  migratewt                                : auto   
+
+* Search settings                                                               
+  start_vdw_linear_cutoff                  :   4.000
+  initial_virtual_pt_match_max             :   3.000
+
+* Cavity detection                                                              
+  Cavity detection algorithm               : Ligsite
+  Cavity radius                            :  10.000
+  Cavity origin                            : -20.69   4.90  18.62
+
+* Solvent Accessibility                                                         
+  Solvate all H bond donors and acceptors  : on
+
+* Ligand treatment                                                              
+  Internal ligand hydrogen bonds           : taken into account
+  Flexible ligand ring corners             : allow flip
+  Ligand carboxylic OH groups              : flip
+  Ligand amide bonds                       : flip
+  Ligand pyramidal nitrogen groups         : allow inversion
+  Ligand bond to planar nitrogen groups    : allow 180 degrees flip
+  Ligand planar nitrogen bonds (Ring-NH-R) : can flip
+  Ligand planar nitrogen bonds (Ring-NRR') : can flip
+  Flatten amide and trigonal nitrogens     : yes
+  Torsional distributions                  : are used
+  Calculating torsional energy of ligand   : yes
+  Ligand energy                            : relative wrt best tors+vdw+hbond
+                                           : reported fitness is adjusted
+  Post-process ligand bonds                : yes
+
+* Protein treatment:                                                            
+  Protein carboxylic OH groups             : flip
+
+* Algorithm Settings (from parameter file):                                     
+  VDW potential (external)                 : 4-8       LJ potential (no. 1)
+  VDW potential (external)                 : 4-8 2-4 split potential (no. 2)
+  VDW potential (external)                 : 4-8 1-2 split potential (no. 3)
+  VDW potential (internal)                 : 6-12       LJ potential (no. 1)
+  VDW potential (internal)                 : 4-8       LJ potential (no. 2)
+  VDW potential (internal)                 : slot 3 not used
+  Weighting for distance matching          : squared
+  Weighting for angle    matching          : squared
+  Mapping, second pass results             : taking best three
+  Internal energy                          : on absolute scale
+  External energy weight                   :   1.375
+  Internal energy weight                   :   1.000
+  Length of H bond                         :   2.900
+  Angle coding                             : binary coded
+  Angle bit length                         : 8 bits
+  Allow duplicates in chromosome mappings  : yes
+  Parameter scaling                        : on
+  Simplex minimisation after every GA run  : yes
+  Infer hetatm types from residue names    : yes
+  Ligand relaxation                        : on
+    Maximum relax distance                 :   2.000
+    Maximum relax angle                    :  60.000
+  Ionisation dispersion term               : external
+
+* Geometric parameters for Fitness Function (from parameter file)               
+  Initial Virtual pt dist max              :   3.000
+  Final Virtual pt dist max                :   2.000
+  Virtual point distance min               :   0.500
+  Virtual point angle min                  :  60.000
+  Virtual point angle max                  : 160.000
+  Cone virtual point angle min             : 120.000
+  Cone virtual point angle max             : 160.000
+  Contact distance                         :  10.000
+  D/A vdw contact weighting                :   1.000
+  Minimum neighbour weighting              :   0.200
+  Mapping second pass distance             :   2.000
+
+* Lone pair parameters                                                          
+  Planar LP: minimum angle with plane      :  20.000
+  Planar LP: maximum angle with plane      :  90.000
+  Protein planar acceptors                 : need only one lp solvated
+  Solvated point distance                  :  -0.200
+
+* VDW parameters                                                                
+  Border round vdw grid                    :   4.000
+  VDW cutoff fraction                      :   1.500
+  VDW cutoff distance                      :  20.000
+  Number of bins in VDW lookup             :  10000
+
+* Specific metal-coordination types                                             
+
+* Other settings                                                                
+  Write statistics                         : off
+  Current parameters file                  :
+  C:\Program Files (x86)\CCDC/GoldSuite_2017\GOLD\gold\gold.params              
+--------------------------------------------------------------------------------
+
+Processing protein 1: C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb 	DE(Protein): 0.00
+
+--------------------------------------------------------------------------------
+--- Loading protein                                                          ---
+--------------------------------------------------------------------------------
+  Protein file                             : C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb
+==================================
+APPLYING GOLD TEMPLATES TO PROTEIN
+==================================
+
+No templates identified from 
+
+==================================
+# WARNING: atom    9 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   14 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom   15 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   24 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   33 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   43 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   47 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   56 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   61 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   65 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   73 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   78 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom   79 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   87 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom   95 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  103 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  108 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  116 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  123 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  130 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  138 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  146 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  154 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  161 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  166 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  170 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  178 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  185 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  193 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  200 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  208 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  213 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  218 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  226 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  230 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  235 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  236 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  242 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  243 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  252 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  259 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  263 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  271 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  280 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  286 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  287 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  295 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  301 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  302 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  310 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  318 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  329 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  337 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  343 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  344 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  349 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  350 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  358 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  363 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  369 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  374 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  382 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  390 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  397 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  404 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  408 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  416 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  424 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  431 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  445 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  456 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  460 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  465 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  471 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  472 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  480 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  487 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  494 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  501 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  505 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  509 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  515 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  516 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  526 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  530 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  538 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  548 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  552 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  556 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  561 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  562 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  573 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  581 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  587 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  596 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  604 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  614 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  618 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  624 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  625 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  630 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  631 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  639 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  647 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  654 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  662 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  668 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  675 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  681 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  682 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  687 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  692 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  693 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  700 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  709 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  715 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  716 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  724 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  730 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  737 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  745 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  750 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  758 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  766 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  773 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  777 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  788 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  789 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  797 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  802 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  810 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  816 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  817 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  822 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  830 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  841 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  848 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  852 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  863 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  864 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  873 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  878 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  879 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  887 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  895 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  901 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  902 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  909 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  913 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  918 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  925 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  929 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  934 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  943 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  950 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  958 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: amide nitrogen 966 in molecule C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is not planar
+# WARNING: atom  975 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  981 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  982 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  989 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom  999 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1003 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1008 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1016 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1021 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1022 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1027 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1035 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1042 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1047 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1048 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1059 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1074 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1082 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1090 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1098 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1105 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1107 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1108 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1118 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1122 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1132 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1136 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1143 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1147 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1155 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1164 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1179 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1188 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1193 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1201 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1210 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1216 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1227 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1228 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1237 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1252 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1256 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1262 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1268 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1276 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1287 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1294 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1300 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1301 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1309 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1316 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1320 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1325 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1336 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1337 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1342 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1350 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1355 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1360 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1361 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1366 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1367 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1375 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1383 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1388 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1389 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1400 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1411 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1412 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1427 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1435 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1443 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1451 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1459 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1467 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1478 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1485 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1490 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1498 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1505 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1509 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1516 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1527 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1528 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1535 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1539 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1548 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1553 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1562 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1571 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1580 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1588 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1595 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1599 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1615 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1619 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1628 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1634 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1635 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1640 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1641 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1648 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1652 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1659 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1667 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1675 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1683 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1690 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1694 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1703 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1710 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1712 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1713 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1722 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1727 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1735 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1744 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1750 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1751 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1759 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1763 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1771 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1779 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1787 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1791 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1798 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1809 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1815 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1816 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1824 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1830 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1840 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1844 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1859 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1870 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1881 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1889 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1896 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1904 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1912 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1919 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1927 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1934 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1945 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1953 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1960 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1964 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1972 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1980 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 1994 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2003 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2013 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2017 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2025 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2036 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2043 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2048 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2059 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2067 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2077 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2081 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2089 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2093 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2104 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 2105 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2110 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2118 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2123 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 2124 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2129 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2137 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2152 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2160 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2168 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2176 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2182 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2189 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2193 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2198 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 2206 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2214 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2225 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2232 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2236 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2245 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2250 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2261 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2270 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2277 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2281 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2289 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: atom 2297 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as an acidic nitrogen
+# WARNING: set_pdb_atom_types: can't deduce type of atom    1 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom    7 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom    8 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   22 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   31 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   39 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   42 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   44 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   45 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   46 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   60 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   72 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   85 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   86 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   93 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom   94 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  102 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  107 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  114 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  115 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  121 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  122 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  128 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  129 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  136 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  137 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  144 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  145 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  152 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  153 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  159 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  160 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  165 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  176 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  183 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  184 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  191 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  192 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  198 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  199 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  206 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  207 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  212 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  217 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  224 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  225 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  241 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  250 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  261 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  262 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  269 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  270 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  278 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  285 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  293 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  294 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  300 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  308 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  316 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  317 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  324 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  325 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  326 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  327 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  328 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  335 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  336 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  342 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  356 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  357 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  362 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  373 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  388 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  389 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  395 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  396 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  402 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  403 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  414 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  415 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  422 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  423 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  429 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  430 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  436 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  437 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  451 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  452 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  453 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  454 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  455 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  464 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  470 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  478 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  479 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  485 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  486 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  492 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  493 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  503 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  504 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  514 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  522 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  525 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  527 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  528 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  529 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  536 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  537 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  544 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  547 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  549 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  550 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  551 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  568 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  569 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  570 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  571 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  572 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  579 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  580 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  602 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  603 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  610 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  613 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  615 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  616 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  617 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  623 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  637 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  638 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  652 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  653 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  660 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  661 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  673 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  674 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  680 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  686 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  698 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  699 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  714 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  722 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  723 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  735 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  736 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  743 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  744 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  749 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  756 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  757 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  775 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  776 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  783 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  784 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  785 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  786 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  795 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  796 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  801 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  808 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  809 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  815 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  836 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  837 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  838 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  839 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  840 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  850 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  851 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  858 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  859 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  860 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  861 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  871 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  885 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  886 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  894 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  900 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  911 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  912 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  917 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  927 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  928 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  933 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  942 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  948 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  949 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  956 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  957 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  964 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  965 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  972 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  980 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  987 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  988 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  995 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom  998 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1000 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1001 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1002 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1007 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1014 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1015 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1026 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1033 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1034 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1040 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1041 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1054 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1055 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1056 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1057 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1058 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1065 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1066 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1080 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1081 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1089 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1097 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1104 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1114 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1117 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1119 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1120 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1121 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1128 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1131 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1133 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1134 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1135 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1145 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1146 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1186 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1192 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1199 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1200 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1209 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1222 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1223 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1224 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1225 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1235 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1282 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1283 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1284 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1285 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1286 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1292 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1293 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1299 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1307 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1318 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1319 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1324 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1331 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1332 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1333 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1334 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1341 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1348 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1349 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1354 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1373 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1374 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1381 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1382 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1395 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1396 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1397 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1398 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1399 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1406 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1407 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1408 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1409 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1418 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1419 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1433 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1434 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1441 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1442 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1449 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1450 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1458 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1465 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1466 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1473 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1474 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1475 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1476 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1477 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1483 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1484 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1489 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1496 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1497 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1507 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1508 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1514 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1515 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1522 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1523 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1524 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1525 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1537 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1538 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1552 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1561 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1578 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1586 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1587 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1597 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1598 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1607 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1608 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1617 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1618 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1627 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1633 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1650 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1651 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1657 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1658 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1666 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1673 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1674 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1682 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1692 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1693 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1709 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1721 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1726 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1733 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1734 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1743 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1749 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1757 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1758 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1769 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1770 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1777 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1778 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1786 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1796 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1797 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1804 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1805 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1806 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1807 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1808 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1814 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1822 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1823 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1836 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1839 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1841 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1842 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1843 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1850 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1851 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1865 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1866 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1867 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1868 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1869 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1876 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1877 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1878 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1879 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1880 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1887 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1888 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1894 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1895 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1902 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1910 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1911 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1917 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1918 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1925 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1932 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1933 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1940 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1941 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1942 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1943 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1944 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1951 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1962 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1963 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1978 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1979 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1985 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 1986 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2002 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2009 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2012 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2014 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2015 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2016 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2023 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2024 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2031 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2032 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2033 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2034 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2035 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2041 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2042 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2047 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2054 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2055 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2056 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2057 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2058 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2065 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2073 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2076 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2078 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2079 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2080 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2087 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2088 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2099 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2100 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2101 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2102 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2109 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2116 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2128 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2136 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2143 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2158 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2159 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2166 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2167 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2174 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2175 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2191 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2192 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2220 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2221 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2222 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2223 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2224 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2234 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2235 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2244 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2249 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2256 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2257 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2258 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2259 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2260 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2269 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2279 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2280 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2287 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2288 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2295 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2296 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: set_pdb_atom_types: can't deduce type of atom 2301 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb, replacing by Du
+# WARNING: atom   14 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom   78 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  235 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  242 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  286 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  301 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  343 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  349 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  471 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  515 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  561 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  624 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  630 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  681 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  692 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  715 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  788 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  816 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  822 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  863 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  878 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  901 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom  981 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1021 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1047 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1227 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1300 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1336 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1360 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1366 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1388 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1411 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1527 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1634 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1640 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1750 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 1815 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 2104 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 2123 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+# WARNING: atom 2198 in C:/Users/student/Desktop/project/beta1/bialko_beta1.pdb is deduced as a singly charged oxygen
+  N.plc donors                             : 
+  none found
+
+  Acidic nitrogen acceptors                : 
+
+  9    15   24   33   43   
+  47   56   61   65   73   
+  79   87   95   103  108  
+  116  123  130  138  146  
+  154  161  166  170  178  
+  185  193  200  208  213  
+  218  226  230  236  243  
+  252  259  263  271  280  
+  287  295  302  310  318  
+  329  337  344  350  358  
+  363  369  374  382  390  
+  397  404  408  416  424  
+  431  445  456  460  465  
+  472  480  487  494  501  
+  505  509  516  526  530  
+  538  548  552  556  562  
+  573  581  587  596  604  
+  614  618  625  631  639  
+  647  654  662  668  675  
+  682  687  693  700  709  
+  716  724  730  737  745  
+  750  758  766  773  777  
+  789  797  802  810  817  
+  830  841  848  852  864  
+  873  879  887  895  902  
+  909  913  918  925  929  
+  934  943  950  958  975  
+  982  989  999  1003 1008 
+  1016 1022 1027 1035 1042 
+  1048 1059 1074 1082 1090 
+  1098 1105 1107 1108 1118 
+  1122 1132 1136 1143 1147 
+  1155 1164 1179 1188 1193 
+  1201 1210 1216 1228 1237 
+  1252 1256 1262 1268 1276 
+  1287 1294 1301 1309 1316 
+  1320 1325 1337 1342 1350 
+  1355 1361 1367 1375 1383 
+  1389 1400 1412 1427 1435 
+  1443 1451 1459 1467 1478 
+  1485 1490 1498 1505 1509 
+  1516 1528 1535 1539 1548 
+  1553 1562 1571 1580 1588 
+  1595 1599 1615 1619 1628 
+  1635 1641 1648 1652 1659 
+  1667 1675 1683 1690 1694 
+  1703 1710 1712 1713 1722 
+  1727 1735 1744 1751 1759 
+  1763 1771 1779 1787 1791 
+  1798 1809 1816 1824 1830 
+  1840 1844 1859 1870 1881 
+  1889 1896 1904 1912 1919 
+  1927 1934 1945 1953 1960 
+  1964 1972 1980 1994 2003 
+  2013 2017 2025 2036 2043 
+  2048 2059 2067 2077 2081 
+  2089 2093 2105 2110 2118 
+  2124 2129 2137 2152 2160 
+  2168 2176 2182 2189 2193 
+  2206 2214 2225 2232 2236 
+  2245 2250 2261 2270 2277 
+  2281 2289 2297 
+
+--------------------------------------------------------------------------------
+--- Active site                                                              ---
+--------------------------------------------------------------------------------
+  Atom number used for centre              :    644
+  Coordinates                              : -20.69   4.90  18.62
+  Cavity radius                            :  10.000
+  Ligsite cavity detection, MIN_PSP        :      4
+
+* Cavity atoms                                                                  
+  2028  2063  2027  2037  2031  2033  1876  1878  2039  2073  
+  2066  2038  2041  2040  2064  1901  1902  1903  1868  1869  
+  2077  2035  2042  1879  1880  1839  1842  1866  2065  1867  
+  2061  1838  1840  2092  673   1843  2102  2096  2118  1841  
+  2091  674   1807  1808  2095  2094  2093  672   2075  1279  
+  2123  2122  669   2099  2101  2103  2104  2078  1283  1280  
+  1277  1278  1276  671   1387  486   1285  1281  691   692   
+  380   670   675   676   402   645   646   459   1269  1270  
+  1388  644   2098  2100  437   2079  2080  458   1333  479   
+  665   664   668   403   679   681   653   457   1336  617   
+  477   1265  401   650   648   642   652   641   432   435   
+  1335  615   476   1264  649   429   651   647   643   434   
+  616   666   431   426   433   427   460   623   373   371   
+  372   375   663   640   428   456   1282  370   374   430   
+  621   612   614   611   613   624   620   619   622   1267  
+  634   667   607   1081  609   618   1286  586   633   1043  
+  1045  606   610   1079  1044  626   1046  628   625   627   
+  584   1080  629   590   588   583   587   1048  589   1054  
+  1049  630   1056  
+
+  Number of active atoms                   :    183
+
+
+--------------------------------------------------------------------------------
+--- Fitting points summary                                                   ---
+--------------------------------------------------------------------------------
+  Protein donor atoms                      :      0
+  
+
+  2123 (single OCO2 atom)
+  2104 (single OCO2 atom)
+  692 (single OCO2 atom)
+  1388 (single OCO2 atom)
+  681 (single OCO2 atom)
+  1336 (single OCO2 atom)
+  624 (single OCO2 atom)
+  630 (single OCO2 atom)
+  Protein acceptor atoms                   :      3
+  2028 2039 2066 
+
+  Hydrogens                                :  (n = 0)
+    none found
+
+
+  Lone pairs added to molecule             :      6
+  Numbering                                : from 2302 to 2307
+
+  Protein TRP residues                     : 
+  none found in active site
+
+  Protein rotatable bonds                  : 
+  none found
+
+# WARNING: init_protein: only found 0 h-donors in the active site: check origin and radius
+# WARNING: init_protein: only found 3 h-acceptors in the active site: check origin and radius
+
+--------------------------------------------------------------------------------
+--- Shape grid                                                               ---
+--------------------------------------------------------------------------------
+  Maximum length of gridpt list            :     73
+  Average list length                      :     40
+
+--------------------------------------------------------------------------------
+--- Receptor Density Scaling                                                 ---
+--------------------------------------------------------------------------------
+  Minimum Protein Density                  :      0
+  Maximum Protein Density                  :    127
+Receptor density scaling is OFF
+
+
+  Length of shape fitting list             :   9249
+
+--------------------------------------------------------------------------------
+--- Interaction Motif                                                        ---
+--------------------------------------------------------------------------------
+  Number of interactions                   :      0
+  Number of motifs                         :      0
+  Weight                                   :  50.000
+  Minimum Include Score                    : 0.000001
+  Ignore Zero Bits?                        :      0
+
+
+* Generating PLP maps for types                                                 
+  DONOR   ACCEPTOR   DONACC   NONPOLAR 
+
+--------------------------------------------------------------------------------
+
+* Protein initialisation time :                                                 
+  total  4.0005 user  4.0004 sys  0.0001
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+--- Active Molecule Summary                                                  ---
+--------------------------------------------------------------------------------
+

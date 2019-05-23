@@ -1,0 +1,12 @@
+Fitness list for ligand file 5a8e.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  1        62.10     -62.10       0.00       0.00       0.00       0.00       0.00       0.00    1.000
+  3        62.07     -62.07       0.00       0.00       0.00       0.00       0.00       0.00    0.000
+  2        61.99     -61.99       0.00       0.00       0.00       0.00       0.00       0.00    0.999
+
+
+Average Values:
+
+           62.05     -62.05       0.00       0.00       0.00       0.00       0.00       0.00    0.667

@@ -1,0 +1,74 @@
+
+--------------------------------------------------------------------------------
+--- GOLD DOCKING RUN  (GOLD v5.5 ) scheduler                                 ---
+--------------------------------------------------------------------------------
+
+GOLD is Genetic Optimisation for Ligand Docking.
+
+GOLD is the result of a collaborative project between Sheffield University,
+the CCDC and Glaxo Wellcome. GOLD is a proprietary product for which the
+copyright is held by the Cambridge Crystallographic Data Centre (CCDC)
+
+Please forward any comments, bugs, or queries to CCDC Software Support:
+
+  Cambridge Crystallographic Data Centre
+  12 Union Road
+  Cambridge CB2 1EZ
+  tel: (44) (1223) 336022
+  email: support@ccdc.cam.ac.uk
+
+--------------------------------------------------------------------------------
+
+  User                                     : mateusz
+  Invocation Time                          : Wed Apr  3 10:13:41 2019
+
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y00.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y00.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y00.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y00.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y02.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y02.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y02.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/2y02.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/3zpq.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/3zpq.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/3zpq.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/3zpq.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4amj.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4amj.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4amj.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4amj.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4bvn.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4bvn.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4bvn.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/4bvn.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/5a8e.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/5a8e.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/5a8e.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/5a8e.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7j.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7j.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7j.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7j.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7m.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7m.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7m.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7m.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7n.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7n.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7n.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6h7n.mol2 scheduled or completed
+Starting next ligand file...
+Beginning ligand file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6ibl.mol2'
+Starting at ligand 1 in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6ibl.mol2'
+Finishing at final ligand in file '/home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6ibl.mol2'
+All jobs for file /home/mateusz/Kasia/zajecia/dokowanie-karolina/ligandy/6ibl.mol2 scheduled or completed
+Starting next ligand file...

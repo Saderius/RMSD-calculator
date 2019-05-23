@@ -1,0 +1,12 @@
+Fitness list for ligand file 6mxt.mol2, molecule 1
+
+Mol No     Score     S(PLP)   S(hbond)     S(cho)   S(metal)  DE(clash)   DE(tors)     intcor     time
+
+  2        81.19     -77.69       1.17       0.00       0.00       0.00       0.00       0.00    1.000
+  1        79.71     -79.71       0.00       0.00       0.00       0.00       0.00       0.00    1.000
+  3        79.26     -79.26       0.00       0.00       0.00       0.00       0.00       0.00    1.000
+
+
+Average Values:
+
+           80.05     -78.89       0.39       0.00       0.00       0.00       0.00       0.00    1.000
