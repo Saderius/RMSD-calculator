@@ -1,11 +1,10 @@
 import os
 import math
 from glob import glob
-#from tkinter import *
 
-#outputuje wszelkie printu
+#outputuje wszelkie printy do pliku
 import sys
-sys.stdout = open('RMSD.txt','wt')
+sys.stdout = open('RMSD-calculator.out','wt')
 
 def get_immediate_subdirectories(a_dir):
     return [name for name in os.listdir(a_dir)
@@ -101,8 +100,8 @@ for j in kk_2():
                 if key[5:key[5:].find('_') + 5] == key2[10:key2[10:].find('_') + 10]:
                     c=True
                     print('Soln:', '\t', key2, '\t')
-                    print('\t',round(porownanie(pliki[key],pliki[key2]),4))
-                    print('\t', 'RMSD =', round(porownanie(pliki[key], pliki[key2]), 4))
+                    #print('\t',round(porownanie(pliki[key],pliki[key2]),4))
+                    print('\n\t', 'RMSD =', round(porownanie(pliki[key], pliki[key2]), 4))
             if a==False:
                 print('Nie został znaleziony soln pasujący do tego Origina')
             print('\n')
@@ -110,33 +109,3 @@ for j in kk_2():
         origin = []
         soln = []
         files = []
-#---------------------------------------------------------------------------------------#
-'''def wrz(x=os.getcwd()):
-    try:
-        sciezka = w.get()
-        print(sciezka)
-        new_sciezka=x+'/'+sciezka
-        print(type(new_sciezka))
-        start_dir=get_immediate_subdirectories(new_sciezka)
-        x_2=get_immediate_subdirectories(new_sciezka)
-        for i in range(len(x_2)):
-            i = Button(root,text=x_2[i])
-            i.pack()
-
-        L['text'] = str(get_immediate_subdirectories(new_sciezka))
-    except:
-        print('error')
-
-
-
-sd=StringVar
-root = Tk()
-
-w = Entry(root, textvariable='sd')
-B = Button(root, text="Wpisz nazwę pliku", command=wrz)
-L = Label(root,text=str(get_immediate_subdirectories(start_dir)), bd=7, relief=RIDGE)
-L.pack(fill=X)
-B.pack()
-w.pack()
-a = w.get()
-root.mainloop()'''
