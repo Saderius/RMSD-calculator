@@ -23,7 +23,7 @@ folderów. Jak nie będzie śmigać to zakomentuj
 import sys
 sys.stdout = open('output.txt','wt')
 ```
-i szukaj problwmu na własną rękę. Stawiam na rozszerzenia lub problem z frazą.
+i szukaj problemów na własną rękę. Stawiam na rozszerzenia lub problem z frazą.
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 [**All Star**](https://www.youtube.com/watch?v=L_jWHffIx5E)
